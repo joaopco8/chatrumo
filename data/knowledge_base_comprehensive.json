@@ -1,0 +1,147 @@
+[
+  {
+    "id": "zto_checklist_completo_revistamento",
+    "keywords": ["o que olhar", "checklist", "lista completa", "tudo que precisa", "itens revistamento", "o que verificar"],
+    "questions": [
+      "O que eu preciso olhar no vagão quando faço o revistamento?",
+      "Qual a lista completa do revistamento?",
+      "O que inspecionar no vagão?",
+      "Quais são todos os itens do revistamento?",
+      "Me fala tudo que eu preciso verificar"
+    ],
+    "answer": "No revistamento padrão ZTO você deve inspecionar: 1) SISTEMA DE FREIO: mangueiras EG, torneiras, sapatas (mín 18mm), chavetas, dispositivo vazio-carregado (EL-60), válvula exaustão, retentora (posição EX), curso cilindro, DDV (obrigatório e ativo), timoneria, contrapinos, DAQ, ajustador, freio manual. 2) CARGA: vazamentos, posicionamento, fixações, tremonhas/portas abertas. 3) TRUQUES: rolamentos, adaptadores, PADs, travessas, pratos de pião (folga D ≤35mm, folga A ≥1,6mm), molas (máx 2 quebradas), cunhas (Rider ≤45mm), ampara balanço (6-10mm). 4) RODAS: bandagem (RGR ≥22mm, normal ≥19mm, tanque ≥35mm), friso (altura ≤38mm, espessura ≥19mm), hollow (≤3mm), trincas, calos, cascalhamento. 5) EIXOS: pancadas (<3,2mm), sulcos (<1,6mm), contatos. 6) ENGATES/ACTs: trincas, braçadeiras, pino mandíbula, chaveta/pino T, varão aluidor, altura (dif ≤76,2mm). 7) LONGARINAS: trincas (≥120mm = CRÍTICO)."
+  },
+  {
+    "id": "zto_freio_completo_critico",
+    "keywords": ["freio crítico", "mais importante freio", "prioridade freio", "essencial freio"],
+    "questions": [
+      "No freio, o que é mais crítico de conferir?",
+      "Quais os pontos mais importantes do freio?",
+      "O que não pode faltar no sistema de freio?",
+      "Freio, o que é prioridade verificar?"
+    ],
+    "answer": "Os pontos CRÍTICOS do sistema de freio são: 1) MANGUEIRAS EG: verificar se estão íntegras, sem vazamentos, bocal não amassado, com braçadeiras. Se avariada/vazando, SUBSTITUIR. 2) SAPATAS: espessura MÍNIMA 18mm. Menos que isso, TROCAR. Se quebrada (≥1/3 área), TROCAR. 3) DDV: É OBRIGATÓRIO e deve estar ATIVO. Cabo de aço íntegro, folga vertical 30mm (vazio), mangueiras sem furos/torções. DDV avariado que precisa solda = CRÍTICO. 4) TIMONERIA: se um truque desligado, OBRIGATÓRIO desligar o outro também e ISOLAR vagão. DAQ (antiqueda) faltando/quebrado = CRÍTICO. 5) FREIO MANUAL: se avariado em posição crítica do trem, manobrar vagão. 6) VAZAMENTOS: qualquer vazamento no sistema compromete segurança. 7) APLICAÇÃO: se não aplica freio ou não alivia = MONITORADO. 8) ISOLADOS: máx 2 vagões isolados JUNTOS, nunca nas 2 ÚLTIMAS posições. Verificar % máximo conforme tabela."
+  },
+  {
+    "id": "zto_rodas_completo",
+    "keywords": ["rodas completo", "tudo sobre rodas", "inspecionar rodas", "verificar rodas"],
+    "questions": [
+      "O que verificar nas rodas?",
+      "Como inspecionar as rodas completo?",
+      "Rodas, o que olhar?",
+      "Checklist de rodas"
+    ],
+    "answer": "INSPEÇÃO COMPLETA DE RODAS: 1) BANDAGEM: RGR (marcação baixo relevo) ≥22mm, rodas normais ≥19mm, TANQUES ≥35mm. Diferença altura bandagem: mesmo truque ≤10mm, entre truques ≤20mm (medir diâmetro com trena se calibre mostrar diferença). 2) FRISO: Altura ≤38mm, espessura ≥19mm (usar gabarito n°2 passa não passa). Friso VERTICAL = CRÍTICO (usar gabarito n°2). 3) HOLLOW (concavidade): limite 3mm. Inspecionar visualmente todas pistas, usar calibre AAR se detectar. >3mm = CRÍTICO. 4) TRINCAS: Rodas RGR (tarja vermelha): inspecionar marcação, bandagem e friso conforme MAN-VG-L-PRO-RD0001. Qualquer trinca = RETER. Rodas normais: trinca no friso = RETER. Friso quebradiço = CRÍTICO. 5) CALOS: Um calo ≤50,8mm. Mais de um calo na mesma roda ≤38,1mm cada. Acima = CRÍTICO. 6) CASCALHAMENTO: sulco/cascalhamento >3,2mm profundidade = CRÍTICO."
+  },
+  {
+    "id": "zto_truques_completo",
+    "keywords": ["truques completo", "tudo sobre truques", "inspecionar truques"],
+    "questions": [
+      "O que verificar nos truques?",
+      "Como inspecionar truques completo?",
+      "Truques, checklist completo"
+    ],
+    "answer": "INSPEÇÃO COMPLETA DE TRUQUES: 1) ROLAMENTOS (cartucho): parafusos presentes com travas, tampa firme, retentor íntegro, sem vazamento graxa. Faltando parafusos/tampa frouxa/retentor avariado = RETER. Rolamento atingido por água/inundação = RETER. Exposto a incêndio/queimada = RETER. GDT: inspeção OBRIGATÓRIA após virador. 2) ADAPTADORES: assentados adequadamente, sem folga entre chapa desgaste e coroas, sem quebras/trincas. Largo: desgaste aba ≥3,2mm = MONITORADO. Problemas = CRÍTICO. 3) PADs: encaixados sem torções, TODOS os 4 rodeiros (8 PADs), não misturar com outros adaptadores, íntegros (sem chapas soltas/deformação/desplacamento). 8 PADs não padronizados = CRÍTICO. 4) TRAVESSAS: trincadas = RETER. Prato pião inferior: borda quebrada/desgaste excessivo = CRÍTICO. 5) PRATO PIÃO SUPERIOR: folga D >35mm = CRÍTICO. Folga A <1,6mm = CRÍTICO. 50% fixação faltando = CRÍTICO. Trincado = CRÍTICO. Bojo solto com clausura trincada = CRÍTICO. 6) MOLAS: ≥2 molas suspensão quebradas/encavaladas/faltando = CRÍTICO. ≥2 com marca sólida = CRÍTICO. ≥1 mola cunha quebrada = CRÍTICO. Quantidades diferentes = CRÍTICO. 7) CUNHAS: Rider ≤45mm. Acima = CRÍTICO. Solta/travada/quebrada = CRÍTICO. Chapa desgaste deslocada/quebrada = CRÍTICO."
+  },
+  {
+    "id": "zto_seguranca_completo",
+    "keywords": ["segurança completo", "procedimentos segurança", "bloqueio", "posicionamento"],
+    "questions": [
+      "Quais os procedimentos de segurança?",
+      "Como garantir segurança no revistamento?",
+      "O que fazer para trabalhar seguro?"
+    ],
+    "answer": "PROCEDIMENTOS DE SEGURANÇA ZTO: 1) POSICIONAMENTO: Durante ENTRADA de trem, TODOS ao lado linha ZTO1 (lado barranco) FORA DE GABARITO. PROIBIDO entrar no gabarito sem trem bloqueado. 2) BLOQUEIO: Seguir MAN-VG-L-PRO-SG0006. Líder aguarda entrada do trem e liberação do Programador via rádio faixa 12. Após liberar, fazer bloqueio MR. Líder informa via rádio MAN ÁREA 2 que trem está bloqueado. Equipes confirmam e iniciam revisão. NÃO sair da faixa MAN ÁREA 2. 3) GABARITO RESTRITO: Há movimentação em linhas adjacentes. Atentos a tráfego, sinais sonoros (buzinas/sinos). Aproximação de trem: INTERROMPER atividades e buscar abrigo ENTRE vagões do trem bloqueado. 4) EPIs OBRIGATÓRIOS: Bota com biqueira composite/PVC, perneira, capacete com jugular, óculos, luva raspa, uniforme brim com faixas, protetor auricular plug, creme proteção, rádio comunicador. 5) RESPONSABILIDADE: EXCLUSIVA do Líder (ou backup designado) falar com Programador/Maquinista. 6) AST: Seguir ferramentas comportamentais SIGO e ASTs. Dúvidas: comunicar Líder. 7) REGRA: Só faça se for seguro."
+  },
+  {
+    "id": "zto_mangueiras_completo",
+    "keywords": ["mangueiras detalhado", "mangote", "encanamento geral", "bocal"],
+    "questions": [
+      "Tudo sobre mangueiras do freio?",
+      "O que verificar nas mangueiras?",
+      "Mangueiras, checklist completo"
+    ],
+    "answer": "INSPEÇÃO COMPLETA MANGUEIRAS: 1) CONDIÇÃO GERAL: Avariada, bocal amassado/gasto, faltando braçadeira/parafuso, vazamento, dimensional incompatível = SUBSTITUIR conforme MAN-VG-L-PRO-FR0001. 2) DESGASTE: Mangote com desgaste excessivo, bolha, deformação = SUBSTITUIR. 3) POSICIONAMENTO: Frouxa, fora de posição, torcida, acoplamento irregular = apertar ou SUBSTITUIR (verificar posição TOP). Mangueiras de vagão dual com contato = CORRIGIR. 4) JUNTA BOCAL: Vazamento de ar na junta = trocar vedação modelo KNORR (SAP 107096). 5) ATENÇÃO DESACOPLAMENTO: Antes de desacoplar, fechar DUAS torneiras. Segurar FIRMEMENTE bocais prevendo chicoteamento. 6) TORNEIRAS: Avariada/quebrada/emperrada em posição crítica = SUBSTITUIR ou manobrar. Fora posição crítica = MONITORADO. Vazamento = CORRIGIR. Grampo fixação solto/quebrado = refazer ou MONITORADO. Suporte fora posição/trincado/quebrado = MONITORADO. 7) ENCANAMENTO GERAL/SECUNDÁRIO: Sintomas vazamento ar = CORRIGIR. Observar união reta e conexões."
+  },
+  {
+    "id": "zto_engates_completo",
+    "keywords": ["engates completo", "engate detalhado", "act", "braçadeira"],
+    "questions": [
+      "Tudo sobre engates?",
+      "Como inspecionar engates completo?",
+      "Engate e ACT, checklist"
+    ],
+    "answer": "INSPEÇÃO COMPLETA ENGATES: 1) TRINCAS ENGATE: Região chaveta = CRÍTICO. Região pino mandíbula = MONITORADO. Região V ou lateral haste = CRÍTICO. 2) SUPORTE APOIO: Trincado = MONITORADO. Quebrado/faltante = CRÍTICO. 3) ESPELHO: Assentamento laterais, trincas rasgo viga, mola quebrada, desgaste excessivo, pancadas parte superior = CRÍTICO. 4) PINO MANDÍBULA: Faltando/quebrado = aplicar/substituir e contrapiná-lo 45°. 5) BRAÇADEIRA: Trincada = MONITORADO. Quebrada = CRÍTICO. 6) CHAVETA (Engate E): Desgaste >½\" = trocar ou RETER. 7) PINO T: Sem contrapino/quebrado = colocar/substituir, abrir pernas 45°. Quebrado/sem travas = substituir, fechar travas (chapa/barra), contrapiná-lo. 8) RETENTOR (Engate F): Avariado/faltando/fixação errada = corrigir ou RETER. 9) VARÃO ALUIDOR: Faltando/torto/emperrado = colocar/trocar, contrapiná-lo 45° ou MONITORADO. NUNCA usar varão graneleiro em PCT (fica fora gabarito). 10) ROTOR: Avariado/solto (risco corte) = avaliar desgaste, MONITORADO. 11) ACT: Folga aparente cruzeta-ACT = CRÍTICO. Componentes soltos = CRÍTICO. Suporte frouxo/faltando parafusos com ≥50% fixação íntegra = MONITORADO. Cabeça engate batendo espelho = CRÍTICO. 12) ALTURA: Diferença >76,2mm (3\") = reposicionar, MONITORADO. Faltando telha/arreio = MONITORADO. Engate caído = MONITORADO."
+  },
+  {
+    "id": "zto_eixos_completo",
+    "keywords": ["eixos detalhado", "inspeção eixos", "ampara balanço"],
+    "questions": [
+      "Como inspecionar eixos completo?",
+      "Eixos e ampara balanço, o que verificar?",
+      "Checklist de eixos"
+    ],
+    "answer": "INSPEÇÃO COMPLETA EIXOS E AMPARA BALANÇO: 1) EIXOS - PANCADAS: Marcas profundidade >3,2mm = CRÍTICO. 2) EIXOS - SULCOS: Profundidade >1,6mm = CRÍTICO. 3) EIXOS - CONTATOS: Eixo DEVE estar LIVRE de qualquer contato com estrutura/componentes. Marcas de contato (sulcos, superfície espelhada por tirante/cabo DDV) = CRÍTICO. 4) AMPARA BALANÇO - FOLGA: Referência 6-10mm. Linha nivelada: nenhuma folga >20mm. Se visualmente fora limites e linha desnivelada, verificar se é torção da linha (não é problema vagão). 5) AMPARA - COLADO: 2 ampara balanços colados = RETER. 1 lado colado + outro mesmo truque com folga <12mm = CRÍTICO. 6) AMPARA - CASTANHAS: Trincadas/quebradas/faltando componentes = RETER. 7) AMPARA - MEDIÇÃO: Usar calibre lâminas em TODA superfície castanha, acrescentar lâminas até ficar justo. Calibre NÃO pode travar entre castanha e chapa superior. Se travar, retirar lâmina e repetir. 8) CONTATO CONSTANTE - BASE: Sem fixação com deslocamento = RETER. Componentes (base/capacete/chapas) trincados/quebrados/faltantes SEM deslocamento = CRÍTICO. 9) CONTATO CONSTANTE - CHAPAS: Deformadas ou desgaste >3,2mm = CRÍTICO. Alturas livres visualmente desreguladas = RETER (observar se linha é nivelada)."
+  },
+  {
+    "id": "zto_longarinas_completo",
+    "keywords": ["longarinas completo", "estrutura", "trincas longarinas"],
+    "questions": [
+      "Como inspecionar longarinas?",
+      "Longarinas e estrutura, o que verificar?",
+      "Trincas em longarinas"
+    ],
+    "answer": "INSPEÇÃO COMPLETA LONGARINAS: 1) FRATURA: Longarina central fraturada (trinca aberta) = RETER imediatamente. 2) TRINCAS CRÍTICAS (ALMA): Longarina central com trinca ≥120mm = CRÍTICO. As trincas MAIS críticas são as que ATINGEM A ALMA da viga central (região do alojamento ACT, próximo prato pião). 3) TRINCAS MONITORADAS: Longarina central com trinca <120mm = MONITORADO. Transversal com trinca qualquer tamanho = MONITORADO. 4) TRINCAS NÃO CRÍTICAS (ABA): Trincas localizadas na ABA, chapa superior/inferior que NÃO atingem alma da viga = menor criticidade. 5) SINALIZAÇÃO: TODAS as trincas precisam ser SINALIZADAS e acompanhada EVOLUÇÃO. Marcar com marcador industrial, medir e registrar para verificar crescimento. 6) REGIÃO ACT: Verificar assentamento laterais espelho, trincas rasgo viga central, desgaste excessivo, pancadas parte superior = CRÍTICO. 7) REGIÃO PIÃO: Verificar cordões solda próximo pedestal e prato pião inferior. 8) NOTA: Vagões TANQUE seguem procedimento específico ENG-VG-CHK-CX8002 para inspeção longarina."
+  },
+  {
+    "id": "zto_sapatas_completo",
+    "keywords": ["sapatas detalhado", "sapatas freio completo", "chaveta sapata"],
+    "questions": [
+      "Tudo sobre sapatas de freio?",
+      "Como verificar sapatas completo?",
+      "Sapatas, checklist detalhado"
+    ],
+    "answer": "INSPEÇÃO COMPLETA SAPATAS: 1) ESPESSURA MÍNIMA: 18mm. Se <18mm = SUBSTITUIR imediatamente. 2) DESGASTE CUNHA: Para sapatas com desgaste em formato cunha, considerar espessura da parte MAIS DESGASTADA. NÃO é permitido INVERTER sapatas com desgaste cunha. 3) QUEBRADA: Perda de massa ≥1/3 da área de contato = SUBSTITUIR. 4) CHAVETA: Avariada/faltando = SUBSTITUIR chaveta. 5) TROCA SEM ISOLAMENTO: Com composição emergenciada, NÃO é necessário isolar vagões para trocar sapatas. Apenas esgotar totalmente o ar de cada vagão que terá sapatas trocadas. 6) PROIBIDO: Não utilizar sapatas de LOCOMOTIVAS em vagões. 7) PROCEDIMENTOS RELACIONADOS: Seguir MAN-VG-L-PRO-FR0001 (Single Car Test) para substituição. 8) NOTA: Sapata é item crítico de segurança - freio sem sapata adequada compromete segurança operacional e pode causar acidentes graves."
+  },
+  {
+    "id": "zto_ddv_completo_detalhado",
+    "keywords": ["ddv completo", "detector descarrilamento completo", "cabo aço detalhado"],
+    "questions": [
+      "Tudo sobre DDV?",
+      "DDV, inspeção completa?",
+      "Detector descarrilamento, checklist"
+    ],
+    "answer": "INSPEÇÃO COMPLETA DDV: 1) OBRIGATORIEDADE: TODOS os vagões (EXCETO serviço via permanente) devem ter DDV ATIVO. É OBRIGATÓRIO. 2) CABO AÇO - POSICIONAMENTO: Solto/pendurado ou faltando grampo elástico = reposicionar cabo respeitando parâmetros folga, aplicar grampo elástico para travamento pino, aplicar Fita Hellerman (braçadeira nylon) para travamento cabo. Seguir MAN-VG-L-PRO-FR0008. 3) CABO AÇO - CONDIÇÃO: Amassamento, abrasão por contato (desgaste), ruptura de fios, alma saltada = TROCAR cabo. NÃO deixar cabo de arrasto nem em contato com eixo. 4) CABO AÇO - FOLGA: Folga vertical do eixo para vagão VAZIO = 30mm. Verificar parâmetros cabo em relação ao eixo. 5) SUPORTE: Trinca, empeno, torção ou solto = corrigir em posto manutenção. 6) MANGUEIRAS: Visualmente furadas/cortadas = corrigir ou ISOLAR DDV. Contato com canto vivo estrutura caixa, torcida, com desgaste = reposicionar deixando livres de contato. 7) AVARIA: DDV avariado (inoperante) que PRECISA SOLDA = CRÍTICO. Não precisa solda = MONITORADO. 8) MODELOS: TMH, HS, HIDRAUVIT - verificar posicionamento conforme fabricante."
+  },
+  {
+    "id": "zto_carga_vagoes_abertos",
+    "keywords": ["carga completo", "vagões abertos", "tremonhas", "módulos"],
+    "questions": [
+      "Como verificar carga completo?",
+      "Vagões abertos, o que olhar?",
+      "Tremonhas e módulos"
+    ],
+    "answer": "INSPEÇÃO COMPLETA CARGA E VAGÕES ABERTOS: 1) VAZAMENTO CARGA: Pelas portas/tremonhas = eliminar vazamento, MONITORADO. Não sendo possível = RETER para baldeio, destinar correção, CRÍTICO. Vagão com talha/tifor aberto ou fechado com macaco (excesso pressão) = CRÍTICO. 2) POSICIONAMENTO: Carga solta = fixar. Fora de posição (desbalanceada) = RETER para posicionar. Fixações soltas/avariadas = corrigir ou RETER. 3) TREMONHAS/PORTAS: Abertas ou risco queda (cremalheira) = fechar. Não resolve/não é possível = RETER. NÃO é permitido trafegar com componentes abertos. 4) MÓDULOS/LONAS: Abertos/caídos = fechar/reparar. Não é possível = RETER. 5) FTT: Travas dos módulos DEVEM estar fechadas no 2° ESTÁGIO. 6) CONTAINERS: Portas abertas = fechar ou RETER. 7) ANTEPAROS: Caídos = reparar ou RETER. 8) VAGÕES GDT: Verificar amassamentos CBA-Alumínio, estribos torcidos/quebrados em contato truque, escadas quebradas/trincadas/avariadas. INSPEÇÕES OBRIGATÓRIAS após descarga virador: rolamentos, adaptadores, PADs, molas."
+  },
+  {
+    "id": "zto_classificacao_vagoes",
+    "keywords": ["isolado retido crítico monitorado", "classificação", "tipos avaria", "nota m1 m2"],
+    "questions": [
+      "Diferença entre isolado, retido, crítico e monitorado?",
+      "Como classificar vagões?",
+      "Quando é isolado, retido, crítico ou monitorado?"
+    ],
+    "answer": "CLASSIFICAÇÃO DE VAGÕES: 1) ISOLADO: Avaria no sistema freio. Ações: torneira coletor fechada, ar reservatório drenado, sapatas afastadas das rodas (MAN-VG-L-PRO-PT0013). Restrições: NUNCA nas 2 ÚLTIMAS posições. Máx 2 vagões isolados JUNTOS. Verificar % máximo conforme tabela (OPE.DO.T.PRO.OP.0014.02). Se timoneria um truque desligada, outro também DEVE estar desligado e vagão ISOLADO. 2) RETIDO: Avaria inviabiliza circulação >25km. Risco IMINENTE acidente. Ações: retirada IMEDIATA do trem ou destinar descarte pátio mais próximo. PCM comunica Estação, abre nota M2, RETER sistema. 3) CRÍTICO: Alta probabilidade acidente próximo ciclo carregamento. Necessita retirada vagão vazio próximo PMV. Ações: PCM abre nota M2, RECOMENDAR recolhimento obrigatório. Vagão CARREGADO crítico: analisar com critério, acionar Cadeia Ajuda, evitar acidentes. Corrigir no revistamento ou retirar ZTO. Se não possível e houver condições seguras, enviar pátio mais próximo para reparação/transbordo. 4) MONITORADO: Baixa probabilidade acidente próximo ciclo. Pode gerar parada trem, refugo carregamento. Ações: PCM abre nota M1, MONITORAR para recolhimento por oportunidade."
+  },
+  {
+    "id": "zto_finalizacao_procedimentos",
+    "keywords": ["finalizar", "entregar trem", "término", "marcar app"],
+    "questions": [
+      "Como finalizar o revistamento?",
+      "O que fazer após terminar?",
+      "Como entregar o trem?"
+    ],
+    "answer": "FINALIZAÇÃO DO REVISTAMENTO: 1) TÉRMINO: Líder comunica via rádio equipes para ENCERRAR revistamento. Todos devem retirar-se do gabarito e posicionar-se ao lado linha ZTO1 (lado barranco FORA GABARITO). 2) PONTOS SEGURANÇA: Atentar MAN-VG-L-PRO-SG0006. Se outro trem JÁ bloqueado em ZTO1/ZTO2, Líder pode autorizar início novo revistamento conforme programação. 3) CONFIRMAÇÃO: Todas equipes devem confirmar via rádio ao Líder que estão em segurança ao lado ZTO1 (lado barranco fora gabarito) OU que já estão realizando revistamento do trem bloqueado na outra linha. 4) MARCAÇÃO: Fazer marcação vagões no APP revistamento. Repassar TODAS informações de vagões isolados, planos especiais ou outra solicitação nos grupos WhatsApp devidos. 5) RESPONSABILIDADE LÍDER: É EXCLUSIVA do Líder (ou backup formalmente designado) garantir cumprimento integral processo. Somente ele pode manter contato com Programador estação ZTO ou Maquinista para liberação transposição (entrada/saída). 6) ATENÇÃO MOVIMENTAÇÃO: Durante revistamento há movimentação trens/manobras ambos sentidos. Gabarito restrito = permanecer atentos tráfego, sinais sonoros (buzinas/sinos), interromper atividades na aproximação trens, buscar abrigo ENTRE vagões trem bloqueado."
+  }
+]
+

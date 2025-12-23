@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "zto_recursos_kit",
+    "keywords": ["kit", "ferramentas", "recursos", "equipamentos", "necessário"],
+    "questions": [
+      "Quais ferramentas preciso para o revistamento?",
+      "O que tem no kit da dupla?",
+      "Que equipamentos são necessários?"
+    ],
+    "answer": "O kit da dupla de revisão inclui: alavanca para troca de sapatas, chave de torneira, chave inglesa 24\", lanterna, calibres (finger, passa não passa, AAR), trena, rádio transmissor, junta do bocal, martelo de pena 1Kg, saca-pino, abridor de contra-pino, contrapinos e marcador industrial."
+  },
+  {
+    "id": "zto_vagao_isolado_conceito",
+    "keywords": ["isolado", "freio isolado", "vagão isolado", "torneira fechada"],
+    "questions": [
+      "O que é um vagão isolado?",
+      "Como isolar um vagão?",
+      "Vagão isolado pode rodar?"
+    ],
+    "answer": "Vagão ISOLADO é aquele que, devido avaria no sistema de freio, precisa ter a torneira do coletor fechada, todo ar do reservatório drenado e sapatas afastadas das rodas, conforme procedimento MAN-VG-L-PRO-PT0013."
+  },
+  {
+    "id": "zto_vagao_retido_conceito",
+    "keywords": ["retido", "reter", "vagão retido", "retirada"],
+    "questions": [
+      "O que é um vagão retido?",
+      "Quando reter um vagão?",
+      "Vagão retido pode seguir?"
+    ],
+    "answer": "Vagão RETIDO é aquele com avaria que inviabiliza circulação por mais de 25km, sendo necessária retirada imediata do trem no pátio ou destino para descarte no pátio mais próximo (risco iminente de acidente). PCM deve comunicar Estação e abrir nota M2."
+  },
+  {
+    "id": "zto_vagao_critico_conceito",
+    "keywords": ["crítico", "vagão crítico", "alta probabilidade"],
+    "questions": [
+      "O que é um vagão crítico?",
+      "Vagão crítico pode rodar?",
+      "Diferença entre crítico e retido?"
+    ],
+    "answer": "Vagão CRÍTICO tem avaria com alta probabilidade de acidente no próximo ciclo de carregamento, gerando necessidade de retirada do vagão vazio no próximo posto de manutenção. PCM deve abrir nota M2 e RECOMENDAR para recolhimento obrigatório."
+  },
+  {
+    "id": "zto_vagao_monitorado_conceito",
+    "keywords": ["monitorado", "vagão monitorado", "baixa probabilidade"],
+    "questions": [
+      "O que é um vagão monitorado?",
+      "Vagão monitorado precisa sair?",
+      "Monitorado pode rodar?"
+    ],
+    "answer": "Vagão MONITORADO tem avaria com baixa probabilidade de acidente no próximo ciclo, que pode gerar parada de trem ou refugo no carregamento. PCM deve abrir nota M1 e MONITORAR para recolhimento por oportunidade."
+  },
+  {
+    "id": "zto_bloqueio_seguranca",
+    "keywords": ["bloqueio", "segurança", "proteção", "trem bloqueado"],
+    "questions": [
+      "Como fazer o bloqueio?",
+      "Quando bloquear o trem?",
+      "Posso revisar sem bloqueio?"
+    ],
+    "answer": "Deverão ser seguidos os bloqueios conforme procedimento MAN-VG-L-PRO-SG0006. O Líder de revistamento deve aguardar entrada do trem e liberação do Programador via rádio faixa 12 antes de realizar o bloqueio de MR."
+  },
+  {
+    "id": "zto_posicionamento_seguranca",
+    "keywords": ["posição", "gabarito", "fora de gabarito", "segurança pessoal"],
+    "questions": [
+      "Onde ficar durante entrada do trem?",
+      "Posso ficar entre vias?",
+      "Qual a posição segura?"
+    ],
+    "answer": "Durante entrada de qualquer trem, todos devem permanecer ao lado da linha ZTO1 (lado barranco), FORA DE GABARITO. É expressamente proibido entrar no gabarito sem trem bloqueado para revisão."
+  },
+  {
+    "id": "zto_mangueira_avariada",
+    "keywords": ["mangueira", "mangote", "bocal", "vazamento mangueira"],
+    "questions": [
+      "Mangueira avariada, o que fazer?",
+      "Bocal amassado pode rodar?",
+      "Mangueira com bolha é problema?"
+    ],
+    "answer": "Caso mangueira esteja avariada, com bocal amassado/gasto, faltando braçadeira/parafuso, com vazamento, desgaste excessivo, bolha ou deformação, deve-se substituir a mangueira conforme MAN-VG-L-PRO-FR0001."
+  },
+  {
+    "id": "zto_junta_bocal_vazamento",
+    "keywords": ["junta", "bocal", "vazamento bocal", "vedação"],
+    "questions": [
+      "Vazamento na junta do bocal?",
+      "Que junta usar?",
+      "Como corrigir vazamento no bocal?"
+    ],
+    "answer": "Se apresentar vazamento de ar na junta do bocal, trocar junta de vedação utilizando o modelo KNORR (SAP 107096)."
+  },
+  {
+    "id": "zto_torneira_avariada",
+    "keywords": ["torneira", "torneira emperrada", "torneira quebrada"],
+    "questions": [
+      "Torneira quebrada, o que fazer?",
+      "Torneira emperrada pode liberar?",
+      "Vazamento na torneira?"
+    ],
+    "answer": "Caso torneira esteja avariada, quebrada e/ou emperrada em posição crítica do trem, substituir ou solicitar manobra. Se não estiver em posição crítica, sinalizar como MONITORADO. Se apresentar vazamento, corrigir."
+  },
+  {
+    "id": "zto_sapata_desgaste",
+    "keywords": ["sapata", "espessura sapata", "18mm", "desgaste sapata"],
+    "questions": [
+      "Qual o limite da sapata?",
+      "Espessura mínima da sapata?",
+      "18mm precisa trocar?"
+    ],
+    "answer": "Se a espessura da sapata estiver MENOR que 18mm, substituir sapata. Para sapatas com desgaste em cunha, considerar a espessura da parte mais desgastada. Não é permitido inverter sapatas com desgaste em cunha."
+  },
+  {
+    "id": "zto_sapata_quebrada",
+    "keywords": ["sapata quebrada", "falta de massa", "sapata rachada"],
+    "questions": [
+      "Sapata quebrada pode rodar?",
+      "Falta de massa na sapata?",
+      "Quebrou 1/3 da sapata?"
+    ],
+    "answer": "Se a sapata estiver quebrada, com perda de massa igual ou superior a 1/3 da área de contato, substituir sapata. Não utilizar sapatas de locomotivas em vagões."
+  },
+  {
+    "id": "zto_chaveta_sapata",
+    "keywords": ["chaveta", "chaveta quebrada", "faltando chaveta"],
+    "questions": [
+      "Chaveta quebrada, trocar?",
+      "Falta chaveta na sapata?",
+      "Como fixar a sapata?"
+    ],
+    "answer": "Se a chaveta estiver avariada ou faltando, substituir a chaveta. A chaveta é essencial para fixação da sapata no sistema de freio."
+  },
+  {
+    "id": "zto_el60_dispositivo",
+    "keywords": ["el-60", "elx", "vazio carregado", "parafuso regulagem"],
+    "questions": [
+      "O que é EL-60?",
+      "Dispositivo vazio carregado faltando parafuso?",
+      "Como verificar EL-60?"
+    ],
+    "answer": "Para EL-60 ou ELX, deve-se verificar visualmente o funcionamento do sistema e o parafuso, conforme MAN-VG-L-PRO-FR0006. Na falta do parafuso de regulagem, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_valvula_exaustao",
+    "keywords": ["válvula exaustão", "duplex", "varão torcido", "vazamento válvula"],
+    "questions": [
+      "Vazamento na válvula de exaustão?",
+      "Varão torcido causa vazamento?",
+      "Como corrigir válvula duplex?"
+    ],
+    "answer": "Verificar se o varão está torcido/enroscado e realizar ajuste para sanar possível vazamento. Verificar se não existe vazamento na válvula de exaustão do duplex da válvula de serviço."
+  },
+  {
+    "id": "zto_retentora_posicao",
+    "keywords": ["retentora", "ex", "alívio direto", "punho vertical"],
+    "questions": [
+      "Posição da retentora?",
+      "O que é posição EX?",
+      "Punho da retentora na vertical?"
+    ],
+    "answer": "Verificar se o punho da retentora está na posição de alívio direto (EX - punho na vertical). Caso não esteja, colocar na posição EX e verificar se existem rodeiros cascalhados no vagão."
+  },
+  {
+    "id": "zto_curso_cilindro",
+    "keywords": ["curso", "cilindro freio", "curso diferente", "especificado"],
+    "questions": [
+      "Curso do cilindro fora do especificado?",
+      "Como medir curso do cilindro?",
+      "Curso diferente pode liberar?"
+    ],
+    "answer": "Se o curso estiver diferente do especificado no procedimento MAN-VG-L-PRO-FR0001, sinalizar o vagão como MONITORADO."
+  },
+  {
+    "id": "zto_ddv_obrigatorio",
+    "keywords": ["ddv", "detector descarrilamento", "obrigatório ddv"],
+    "questions": [
+      "DDV é obrigatório?",
+      "Vagão sem DDV pode rodar?",
+      "Todos vagões precisam DDV?"
+    ],
+    "answer": "É OBRIGATÓRIO que todos os vagões (exceto vagões a serviço da via permanente) estejam munidos de DDV e que estes estejam ATIVOS."
+  },
+  {
+    "id": "zto_ddv_avariado",
+    "keywords": ["ddv avariado", "ddv inoperante", "precisa solda"],
+    "questions": [
+      "DDV avariado, o que fazer?",
+      "DDV inoperante pode rodar?",
+      "DDV que precisa solda?"
+    ],
+    "answer": "Todo vagão com DDV avariado (inoperante) que precise de SOLDA para ser corrigido, sinalizar como CRÍTICO. Caso não precise de solda, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_cabo_aco_ddv",
+    "keywords": ["cabo de aço", "grampo elástico", "fita hellerman", "folga ddv"],
+    "questions": [
+      "Cabo de aço solto?",
+      "Como fixar cabo DDV?",
+      "Folga do cabo de aço?"
+    ],
+    "answer": "Se cabo de aço estiver solto/pendurado ou faltando grampo elástico, reposicionar respeitando parâmetros de folga, aplicar grampo elástico para travamento do pino e Fita Hellerman para travamento do cabo, conforme MAN-VG-L-PRO-FR0008."
+  },
+  {
+    "id": "zto_cabo_aco_desgaste",
+    "keywords": ["cabo desgaste", "ruptura fios", "alma saltada", "cabo amassado"],
+    "questions": [
+      "Cabo de aço com desgaste?",
+      "Ruptura de fios no cabo?",
+      "Alma saltada pode rodar?"
+    ],
+    "answer": "Se cabo de aço apresentar amassamento, abrasão por contato (desgaste), ruptura de fios ou alma saltada, trocar cabo de aço. Não deixar cabo de arrasto nem em contato com eixo."
+  },
+  {
+    "id": "zto_folga_vertical_ddv",
+    "keywords": ["folga vertical", "30mm", "cabo eixo", "distância cabo"],
+    "questions": [
+      "Qual folga vertical do DDV?",
+      "30mm é do cabo ao eixo?",
+      "Como medir folga DDV?"
+    ],
+    "answer": "A folga vertical do eixo para vagão VAZIO é de 30mm. Deve-se verificar parâmetros do cabo de aço em relação ao eixo conforme procedimento."
+  },
+  {
+    "id": "zto_mangueira_ddv_avaria",
+    "keywords": ["mangueira ddv", "furada", "cortada", "torcida ddv"],
+    "questions": [
+      "Mangueira DDV furada?",
+      "Mangueira torcida do DDV?",
+      "Contato com canto vivo?"
+    ],
+    "answer": "Se mangueiras estiverem furadas/cortadas, corrigir ou isolar DDV. Se estiverem em contato com canto vivo da estrutura, torcida ou com desgaste, reposicionar deixando-as livres de contato."
+  },
+  {
+    "id": "zto_timoneria_desligada",
+    "keywords": ["timoneria", "desligada", "dois truques", "isolado obrigatório"],
+    "questions": [
+      "Timoneria desligada, o que fazer?",
+      "Um truque desligado e outro não?",
+      "Obrigatório desligar os dois?"
+    ],
+    "answer": "ATENÇÃO: Caso timoneria de um truque esteja desligada, OBRIGATORIAMENTE a do outro truque também deve estar desligada e o vagão isolado. Caso não esteja, isolar vagão, desligar timoneria e fixar peças que possam estar de arrasto."
+  },
+  {
+    "id": "zto_contrapino_pernas",
+    "keywords": ["contrapino", "45 graus", "pernas", "abertura contrapino"],
+    "questions": [
+      "Como abrir contrapino?",
+      "Ângulo do contrapino?",
+      "Pernas do contrapino?"
+    ],
+    "answer": "Contrapino quebrado: substituir e abrir as DUAS PERNAS a 45°. Esta é a abertura correta do contrapino para garantir fixação adequada."
+  },
+  {
+    "id": "zto_daq_antiqueda",
+    "keywords": ["daq", "antiqueda", "dispositivo antiqueda"],
+    "questions": [
+      "DAQ faltando?",
+      "O que é DAQ?",
+      "Antiqueda quebrado?"
+    ],
+    "answer": "DAQ (Dispositivo Antiqueda) faltando ou quebrado: colocar/substituir. É item CRÍTICO de segurança. Deve sempre estar presente na barra de compressão."
+  },
+  {
+    "id": "zto_pino_graduacao",
+    "keywords": ["pino graduação", "faltando pino", "contrapiná-lo"],
+    "questions": [
+      "Pino de graduação faltando?",
+      "Como contrapiná-lo?",
+      "Pino quebrado?"
+    ],
+    "answer": "Faltando pino de graduação: colocar pino e contrapiná-lo abrindo cada perna a 45°."
+  },
+  {
+    "id": "zto_ajustador_emperrado",
+    "keywords": ["ajustador", "emperrado", "biela batendo", "tremonha"],
+    "questions": [
+      "Ajustador automático emperrado?",
+      "Biela batendo na tremonha?",
+      "Ajustador de folgas travado?"
+    ],
+    "answer": "Se ajustador estiver emperrado ou biela do ajustador estiver apoiando na tremonha ou suportes, isolar o vagão e sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_nao_aplica_freio",
+    "keywords": ["não aplica", "freio não funciona", "sem pressão roda"],
+    "questions": [
+      "Freio não aplica?",
+      "Sapata sem pressão na roda?",
+      "Freio não funciona?"
+    ],
+    "answer": "Se não aplica o freio (sapata sem pressão na roda), sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_nao_aliviar_freio",
+    "keywords": ["não alivia", "freio travado", "não solta"],
+    "questions": [
+      "Freio não alivia?",
+      "Freio travado?",
+      "Não solta o freio?"
+    ],
+    "answer": "Se não aliviar o freio, isolar e sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_vagao_isolado_posicao",
+    "keywords": ["isolados juntos", "duas últimas posições", "limite isolados"],
+    "questions": [
+      "Quantos vagões isolados pode ter junto?",
+      "Isolado nas últimas posições?",
+      "Limite de vagões isolados?"
+    ],
+    "answer": "Não pode haver vagões isolados nas 02 (duas) ÚLTIMAS posições do trem. Não pode haver mais que 02 (dois) vagões isolados JUNTOS na composição. Ficar atento ao percentual máximo conforme tabela do procedimento OPE.DO.T.PRO.OP.0014.02."
+  },
+  {
+    "id": "zto_freio_manual_apertado",
+    "keywords": ["freio manual", "apertado", "soltar freio manual"],
+    "questions": [
+      "Freio manual apertado?",
+      "Como soltar freio manual?",
+      "Verificar rodas com freio manual?"
+    ],
+    "answer": "Se freio manual estiver apertado, soltar o freio e verificar situação das rodas."
+  },
+  {
+    "id": "zto_freio_manual_avariado",
+    "keywords": ["freio manual emperrado", "corrente arrebentada", "volante quebrado"],
+    "questions": [
+      "Freio manual emperrado?",
+      "Corrente arrebentada?",
+      "Volante quebrado pode liberar?"
+    ],
+    "answer": "Se freio manual estiver avariado (emperrado, corrente arrebentada, faltando pino, faltando volante, volante quebrado), sinalizar como MONITORADO. Se em posição crítica conforme MAN-VG-L-PRO-PT0001, manobrar o vagão."
+  },
+  {
+    "id": "zto_vazamento_carga",
+    "keywords": ["vazamento", "portas", "tremonha vazando", "produto vazando"],
+    "questions": [
+      "Vazamento pelas portas?",
+      "Produto vazando da tremonha?",
+      "Como eliminar vazamento?"
+    ],
+    "answer": "Se apresentar vazamento pelas portas ou tremonhas, eliminar o vazamento e sinalizar como MONITORADO. Não sendo possível sanar, RETER o vagão para baldeio e destinar para correção, sinalizando como CRÍTICO."
+  },
+  {
+    "id": "zto_vagao_talha_tifor",
+    "keywords": ["talha", "tifor", "macaco", "excesso pressão"],
+    "questions": [
+      "Vagão com talha aberto?",
+      "Tifor no vagão?",
+      "Macaco devido pressão?"
+    ],
+    "answer": "Vagões abertos com talha ou tifor, ou fechados com macaco devido excesso de pressão, devem ser sinalizados como CRÍTICOS."
+  },
+  {
+    "id": "zto_carga_solta",
+    "keywords": ["carga solta", "fixação solta", "desbalanceada"],
+    "questions": [
+      "Carga solta pode rodar?",
+      "Carga fora de posição?",
+      "Fixações avariadas?"
+    ],
+    "answer": "Se carga estiver solta, fixar. Se estiver fora de posição (desbalanceada), RETER para posicionar corretamente. Se fixações estiverem soltas ou avariadas, corrigir ou RETER o vagão."
+  },
+  {
+    "id": "zto_tremonha_aberta",
+    "keywords": ["tremonha aberta", "cremalheira", "risco queda"],
+    "questions": [
+      "Tremonha aberta pode rodar?",
+      "Cremalheira com risco de queda?",
+      "Como fechar tremonha?"
+    ],
+    "answer": "Se tremonhas estiverem abertas ou com risco de queda (tipo cremalheira), fechar. Caso não resolva ou não seja possível fechar, RETER o vagão. Não é permitido trafegar vagão com esses componentes abertos."
+  },
+  {
+    "id": "zto_modulo_lona_aberto",
+    "keywords": ["módulo", "lona", "container aberto", "anteparo caído"],
+    "questions": [
+      "Módulo aberto pode rodar?",
+      "Lona aberta?",
+      "Container com porta aberta?"
+    ],
+    "answer": "Não é permitido trafegar com módulos, lonas, portas de containers ou anteparos abertos/caídos. Mecânicos devem fechar todos. Caso não seja possível, RETER para tratamento."
+  },
+  {
+    "id": "zto_ftt_travas",
+    "keywords": ["ftt", "travas", "segundo estágio", "2° estágio"],
+    "questions": [
+      "Travas do FTT?",
+      "Segundo estágio das travas?",
+      "FTT como fechar?"
+    ],
+    "answer": "ATENÇÃO: Vagões FTT devem estar com as travas dos módulos fechadas no 2° ESTÁGIO."
+  },
+  {
+    "id": "zto_rolamento_cartucho",
+    "keywords": ["rolamento", "cartucho", "parafusos faltando", "tampa frouxa"],
+    "questions": [
+      "Rolamento tipo cartucho faltando parafuso?",
+      "Tampa frouxa no rolamento?",
+      "Retentor avariado?"
+    ],
+    "answer": "Para rolamentos tipo cartucho faltando parafusos, com tampa frouxa, sem travas nos parafusos, anel de encosto solto, retentor avariado ou solto, RETER vagão para substituir o rodeiro."
+  },
+  {
+    "id": "zto_rolamento_inundacao",
+    "keywords": ["inundação", "água", "rolamento molhado", "enchente"],
+    "questions": [
+      "Rolamento atingido por inundação?",
+      "Água no rolamento?",
+      "Enchente atingiu rolamento?"
+    ],
+    "answer": "Vagão com rolamento atingido por inundação, mesmo que temporária, e que água tenha atingido nível do rolamento, RETER para troca de rodeiros."
+  },
+  {
+    "id": "zto_rolamento_incendio",
+    "keywords": ["queimada", "incêndio", "fogo", "rolamento queimado"],
+    "questions": [
+      "Rolamento exposto a queimada?",
+      "Incêndio no vagão?",
+      "Rolamento queimado?"
+    ],
+    "answer": "Vagão com rolamento exposto a queimadas ou incêndios, RETER para troca de rodeiros."
+  },
+  {
+    "id": "zto_gdt_inspecao_obrigatoria",
+    "keywords": ["gdt", "virador", "após descarga", "inspeção obrigatória"],
+    "questions": [
+      "GDT precisa inspeção especial?",
+      "Após descarga no virador?",
+      "Inspeção obrigatória GDT?"
+    ],
+    "answer": "NOTA: Para vagões da FROTA GDT, REALIZAR OBRIGATORIAMENTE INSPEÇÃO dos rolamentos, adaptadores, PADs e molas APÓS DESCARGA DO VAGÃO NO VIRADOR."
+  },
+  {
+    "id": "zto_adaptador_assentamento",
+    "keywords": ["adaptador", "assentamento", "folga coroas", "chapa desgaste"],
+    "questions": [
+      "Adaptador mal assentado?",
+      "Folga entre chapa e coroas?",
+      "Adaptador quebrado?"
+    ],
+    "answer": "Verificar se adaptadores estão assentados adequadamente nos rolamentos. Se houver folga entre chapa de desgaste do pedestal e região de alívio entre coroas, sinalizar como CRÍTICO. Partes quebradas, trincadas ou faltantes: CRÍTICO."
+  },
+  {
+    "id": "zto_adaptador_largo_desgaste",
+    "keywords": ["adaptador largo", "desgaste aba", "3,2mm", "aba adaptador"],
+    "questions": [
+      "Adaptador largo desgastado?",
+      "Desgaste na aba 3,2mm?",
+      "Limite do adaptador largo?"
+    ],
+    "answer": "Adaptador Largo: verificar se existe desgaste na aba ≥ 3,2 mm. Caso exista, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_pad_encaixe",
+    "keywords": ["pad", "encaixado", "torção pad", "diferença altura"],
+    "questions": [
+      "PAD mal encaixado?",
+      "PAD torcido pode rodar?",
+      "Diferença de altura nos PADs?"
+    ],
+    "answer": "Verificar se PADs estão perfeitamente encaixados nos adaptadores metálicos, sem torções ou diferenças de altura. Caso não esteja, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_pad_padronizacao",
+    "keywords": ["8 pads", "4 rodeiros", "padronizado", "todos pad"],
+    "questions": [
+      "Precisa PAD em todos rodeiros?",
+      "8 PADs no vagão?",
+      "Misturar PAD com outros adaptadores?"
+    ],
+    "answer": "Verificar se PAD está aplicado em TODOS os 4 rodeiros do vagão (8 PADs no total). PAD NÃO pode ser aplicado com outros tipos de adaptadores no mesmo vagão. Caso não esteja padronizado, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_pad_integridade",
+    "keywords": ["pad chapa solta", "deformação", "desplacamento", "destacamento"],
+    "questions": [
+      "PAD com chapa solta?",
+      "Desplacamento do PAD?",
+      "PAD deformado?"
+    ],
+    "answer": "Verificar se PADs estão íntegros (sem chapas soltas, deformação, desplacamento, destacamento de material). Caso não esteja, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_travessa_trinca",
+    "keywords": ["travessa", "trinca pedestal", "cordão solda", "prato pião"],
+    "questions": [
+      "Travessa trincada?",
+      "Trinca no pedestal?",
+      "Cordão de solda com trinca?"
+    ],
+    "answer": "Se travessas laterais ou centrais estiverem trincadas, RETER vagão para reparação. Inspecionar cordões de solda próximo ao pedestal e prato do pião inferior."
+  },
+  {
+    "id": "zto_prato_piao_desgaste",
+    "keywords": ["prato pião", "borda quebrada", "desgaste excessivo prato"],
+    "questions": [
+      "Borda do prato pião quebrada?",
+      "Desgaste excessivo no prato?",
+      "Prato pião inferior avariado?"
+    ],
+    "answer": "Borda do prato pião inferior com desgaste excessivo ou quebrado, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_prato_piao_folga",
+    "keywords": ["folga d", "35mm", "prato superior inferior", "folga prato"],
+    "questions": [
+      "Folga entre pratos maior que 35mm?",
+      "Como medir folga D?",
+      "Limite de folga dos pratos?"
+    ],
+    "answer": "Se prato de pião superior estiver visivelmente desgastado no diâmetro, com folga entre prato superior e inferior MAIOR que 35mm (folga D da Tabela 1), sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_prato_piao_aba",
+    "keywords": ["aba contato", "1,6mm", "folga a", "aba borda"],
+    "questions": [
+      "Aba em contato com borda?",
+      "Folga A menor que 1,6mm?",
+      "Aba do prato em contato?"
+    ],
+    "answer": "Se aba estiver em contato com borda do prato inferior ou folga INFERIOR a 1,6mm (folga A da Tabela 1), sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_prato_piao_fixacao",
+    "keywords": ["fixação faltando", "50% fixação", "prato solto"],
+    "questions": [
+      "50% de fixação faltando?",
+      "Parafusos frouxos no prato?",
+      "Fixação insuficiente?"
+    ],
+    "answer": "Se apresentar 50% de fixação faltando e/ou frouxa, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_prato_piao_bojo",
+    "keywords": ["bojo solto", "clausura", "prato tipo bojo"],
+    "questions": [
+      "Bojo solto no prato?",
+      "Clausura trincada?",
+      "Prato com bojo quebrado?"
+    ],
+    "answer": "Se for do tipo bojo solto, com clausura trincada ou quebrada, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_mola_quebrada",
+    "keywords": ["mola quebrada", "duas molas", "encavalada", "mola faltando"],
+    "questions": [
+      "Duas molas quebradas?",
+      "Mola encavalada pode rodar?",
+      "Quantas molas quebradas reter?"
+    ],
+    "answer": "Caso haja DUAS ou MAIS molas de suspensão quebradas, encavaladas ou faltando, sinalizar como CRÍTICO. Reter o vagão para substituição da mola."
+  },
+  {
+    "id": "zto_mola_solida",
+    "keywords": ["mola sólida", "carga sólida", "marca sólida", "mola cansada"],
+    "questions": [
+      "Mola com marca de carga sólida?",
+      "Mola sólida é problema?",
+      "Duas molas sólidas?"
+    ],
+    "answer": "Caso haja DUAS ou MAIS molas de suspensão com marca de carga sólida (mola cansada), sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_mola_cunha",
+    "keywords": ["mola cunha", "uma mola cunha", "cunha quebrada"],
+    "questions": [
+      "Mola da cunha quebrada?",
+      "Uma mola da cunha quebrada já reter?",
+      "Quantas molas da cunha?"
+    ],
+    "answer": "Caso haja UMA ou MAIS molas da cunha quebrada, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_configuracao_molas",
+    "keywords": ["quantidade molas", "pacote molas", "configuração molas"],
+    "questions": [
+      "Quantidades de molas diferente?",
+      "Configuração do pacote?",
+      "Molas a mais ou a menos?"
+    ],
+    "answer": "Inspecionar pacotes de molas de acordo com a configuração (quantidades de molas) conforme MAN-VG-L-PRO-TR0001. Se apresentar quantidades diferentes, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_cunha_rider_45mm",
+    "keywords": ["cunha rider", "45mm", "altura cunha", "limite cunha rider"],
+    "questions": [
+      "Limite da cunha Rider control?",
+      "45mm é o máximo?",
+      "Altura da cunha Rider?"
+    ],
+    "answer": "Com trena ou calibre bigode, medir altura da cunha. O limite de altura da cunha Rider control é de 45mm. Acima dos limites, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_cunha_avariada",
+    "keywords": ["cunha solta", "cunha travada", "cunha avariada", "cunha quebrada"],
+    "questions": [
+      "Cunha solta pode rodar?",
+      "Cunha travada?",
+      "Cunha quebrada é crítico?"
+    ],
+    "answer": "Cunha solta, travada, avariada ou quebrada, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_chapa_desgaste_cunha",
+    "keywords": ["chapa desgaste", "deslocada", "fora posição", "chapa quebrada"],
+    "questions": [
+      "Chapa de desgaste fora de posição?",
+      "Chapa deslocada?",
+      "Chapa quebrada no truque?"
+    ],
+    "answer": "Chapa de desgaste deslocada (fora de posição), quebrada ou danificada, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_bandagem_rgr",
+    "keywords": ["rgr", "22mm", "roda grupo risco", "baixo relevo"],
+    "questions": [
+      "Limite RGR?",
+      "22mm para RGR?",
+      "Roda grupo de risco limite?"
+    ],
+    "answer": "Para rodas com marcação a quente em baixo relevo no aro (RGR - Roda Grupo de Risco): se espessura do aro for MENOR que 22mm, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_bandagem_normal",
+    "keywords": ["19mm", "aro", "espessura aro", "bandagem normal"],
+    "questions": [
+      "Limite da bandagem?",
+      "19mm é o mínimo?",
+      "Espessura do aro mínima?"
+    ],
+    "answer": "Para as demais rodas (não RGR): se espessura do aro for MENOR que 19mm, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_bandagem_tanque",
+    "keywords": ["tanque", "35mm", "vagão tanque bandagem"],
+    "questions": [
+      "Limite para tanques?",
+      "35mm é de tanque?",
+      "Bandagem de vagão tanque?"
+    ],
+    "answer": "Para TANQUES: se espessura do aro for MENOR que 35mm, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_diferenca_bandagem",
+    "keywords": ["diferença altura", "10mm", "20mm", "entre truques"],
+    "questions": [
+      "Diferença de altura da bandagem?",
+      "10mm entre rodeiros?",
+      "20mm entre truques?"
+    ],
+    "answer": "Se diferença da altura da bandagem dos rodeiros no MESMO truque estiver maior que 10mm, sinalizar como CRÍTICO. Entre truques, se maior que 20mm, CRÍTICO. Caso constatado diferença pelo calibre, medir diâmetro com trena - se não houver diferença nos diâmetros, liberar."
+  },
+  {
+    "id": "zto_friso_altura",
+    "keywords": ["altura friso", "38mm", "friso alto"],
+    "questions": [
+      "Altura máxima do friso?",
+      "38mm é o limite?",
+      "Friso maior que 38mm?"
+    ],
+    "answer": "Se friso estiver com altura SUPERIOR a 38mm, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_friso_espessura",
+    "keywords": ["espessura friso", "19mm friso", "friso fino"],
+    "questions": [
+      "Espessura mínima do friso?",
+      "Friso fino limite?",
+      "19mm no friso?"
+    ],
+    "answer": "Se espessura do friso estiver MENOR que 19mm (friso fino quando tocar no ponto específico do gabarito n° 2 passa não passa), sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_friso_vertical",
+    "keywords": ["friso vertical", "gabarito 2", "vertical ponto"],
+    "questions": [
+      "Friso vertical pode rodar?",
+      "Como verificar friso vertical?",
+      "Gabarito n° 2?"
+    ],
+    "answer": "Caso apresente friso vertical (usar gabarito n° 2 - quando tocar neste ponto específico), sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_hollow",
+    "keywords": ["hollow", "concavidade", "3mm", "calibre aar"],
+    "questions": [
+      "Limite de concavidade?",
+      "Hollow maior que 3mm?",
+      "Como medir hollow?"
+    ],
+    "answer": "O limite de concavidade (hollow worn) é 03mm. Inspecionar visualmente todas pistas das rodas. Caso constatada existência, usar calibre da AAR para confirmar. Sendo MAIOR que limite, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_roda_trinca_rgr",
+    "keywords": ["trinca rgr", "marcação", "bandagem trinca", "friso trinca"],
+    "questions": [
+      "Roda RGR trincada?",
+      "Trinca na marcação?",
+      "Inspecionar rodas grupo risco?"
+    ],
+    "answer": "Inspecionar visualmente rodas do grupo de risco (RGR - tarja vermelha), na região da marcação, na bandagem e no friso conforme MAN-VG-L-PRO-RD0001. Em caso de trinca, identificar a roda e RETER vagão para reparação."
+  },
+  {
+    "id": "zto_friso_trincado",
+    "keywords": ["friso trincado", "trinca friso", "roda normal trinca"],
+    "questions": [
+      "Friso com trinca?",
+      "Roda não RGR trincada?",
+      "Trinca só no friso?"
+    ],
+    "answer": "Para rodas que não são do grupo de risco, inspecionar região do friso. Friso trincado: identificar local da trinca e RETER o vagão para substituição do rodeiro."
+  },
+  {
+    "id": "zto_friso_quebradico",
+    "keywords": ["friso quebradiço", "lascado", "pedaços"],
+    "questions": [
+      "Friso quebradiço?",
+      "Friso lascando?",
+      "Pedaços do friso saindo?"
+    ],
+    "answer": "Para rodas que não são do grupo de risco, inspecionar região do friso. Friso quebradiço, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_roda_calejada",
+    "keywords": ["calo", "calejada", "50,8mm", "38,1mm"],
+    "questions": [
+      "Roda calejada limite?",
+      "Calo de 50mm?",
+      "Mais de um calo?"
+    ],
+    "answer": "Limite máximo de comprimento circunferencial para um calo é 50,8mm. Quando houver MAIS de um calo na mesma roda, comprimento máximo deve ser 38,1mm. Caso diagnosticado, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_roda_cascalhada",
+    "keywords": ["cascalhada", "sulco pista", "3,2mm profundidade"],
+    "questions": [
+      "Roda cascalhada?",
+      "Sulco na pista?",
+      "Profundidade maior que 3,2mm?"
+    ],
+    "answer": "Roda com sulco na pista ou cascalhada com profundidade MAIOR que 3,2mm, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_eixo_pancada",
+    "keywords": ["marca pancada", "3,2mm eixo", "profundidade eixo"],
+    "questions": [
+      "Marca de pancada no eixo?",
+      "Profundidade maior que 3,2mm?",
+      "Eixo com pancada profunda?"
+    ],
+    "answer": "Verificar visualmente marcas de pancada com profundidade SUPERIOR a 3,2mm. Caso apresente, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_eixo_sulco",
+    "keywords": ["sulco eixo", "1,6mm", "superfície espelhada"],
+    "questions": [
+      "Sulco no eixo?",
+      "1,6mm de profundidade?",
+      "Marca de contato no eixo?"
+    ],
+    "answer": "Verificar sulcos com profundidade SUPERIOR a 1,6mm. Caso apresente, sinalizar como CRÍTICO. ATENÇÃO: eixo deve estar LIVRE de qualquer contato com partes da estrutura ou componentes. Marcas de contato (sulcos, superfície espelhada): CRÍTICO."
+  },
+  {
+    "id": "zto_ampara_balanco_folga",
+    "keywords": ["ampara balanço", "6 a 10mm", "folga ampara", "12mm"],
+    "questions": [
+      "Folga do ampara balanço?",
+      "6 a 10mm é o normal?",
+      "20mm é o máximo?"
+    ],
+    "answer": "Se visualmente estiver fora dos limites (usar como referência 6 a 10mm), observar se linha é nivelada. Em linha desnivelada, nenhuma folga deve exceder 20mm."
+  },
+  {
+    "id": "zto_ampara_balanco_colado",
+    "keywords": ["colado", "dois ampara colados", "um colado outro 12mm"],
+    "questions": [
+      "Ampara balanço colado?",
+      "Dois colados no mesmo truque?",
+      "Um colado e outro 12mm?"
+    ],
+    "answer": "Se 02 ampara balanços estiverem colados, RETER vagão para reparação. Se um lado do ampara balanço estiver colado e outro no MESMO truque estiver com folga MENOR que 12mm, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_castanha_ampara",
+    "keywords": ["castanha", "trincada", "quebrada castanha", "faltando componentes"],
+    "questions": [
+      "Castanha trincada?",
+      "Castanha quebrada?",
+      "Faltando componentes do ampara?"
+    ],
+    "answer": "Castanhas trincadas, quebradas, faltando componentes: RETER o vagão para reparação."
+  },
+  {
+    "id": "zto_ampara_contato_constante",
+    "keywords": ["contato constante", "base ampara", "sem fixação", "capacete"],
+    "questions": [
+      "Ampara balanço de contato constante?",
+      "Base sem fixação?",
+      "Capacete quebrado?"
+    ],
+    "answer": "Base do ampara balanço ou chapa de desgaste superior sem fixação e com deslocamento: RETER vagão. Componentes (base, capacete, chapas) trincados, quebrados, faltantes, sem deslocamento do conjunto: CRÍTICO."
+  },
+  {
+    "id": "zto_chapa_ajuste_superior",
+    "keywords": ["chapa ajuste", "deformada", "3,2mm desgaste"],
+    "questions": [
+      "Chapa de ajuste deformada?",
+      "Desgaste maior que 3,2mm?",
+      "Chapa superior avariada?"
+    ],
+    "answer": "Chapas de ajuste superiores deformadas ou desgaste MAIOR que 3,2mm: sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_altura_ampara_desregulada",
+    "keywords": ["altura livre", "desregulada", "torção linha"],
+    "questions": [
+      "Alturas livres desreguladas?",
+      "Ampara com alturas diferentes?",
+      "Linha torta afeta ampara?"
+    ],
+    "answer": "Se visivelmente as alturas livres dos ampara balanços estiverem desreguladas, RETER vagão. Observar se linha é nivelada - em linha desnivelada as folgas ficam desreguladas devido torção entre truques, neste caso não é problema de vagão."
+  },
+  {
+    "id": "zto_engate_trinca_chaveta",
+    "keywords": ["engate trincado", "trinca chaveta", "região chaveta"],
+    "questions": [
+      "Engate trincado na chaveta?",
+      "Trinca na região da chaveta?",
+      "Engate tipo E trincado?"
+    ],
+    "answer": "Se engate estiver trincado na região da chaveta, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_engate_trinca_mandibula",
+    "keywords": ["pino mandíbula", "trinca mandíbula", "região pino"],
+    "questions": [
+      "Trinca no pino de mandíbula?",
+      "Engate trincado na mandíbula?",
+      "Região do pino trincada?"
+    ],
+    "answer": "Se engate estiver trincado na região do pino de mandíbula, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_engate_trinca_v",
+    "keywords": ["v", "lateral haste", "trinca v", "haste trincada"],
+    "questions": [
+      "Trinca no V do engate?",
+      "Lateral da haste trincada?",
+      "Região do V avariada?"
+    ],
+    "answer": "Se engate estiver trincado na região do V ou da lateral da haste, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_suporte_engate",
+    "keywords": ["suporte apoio", "suporte trincado", "suporte quebrado"],
+    "questions": [
+      "Suporte de apoio trincado?",
+      "Suporte quebrado ou faltante?",
+      "Apoio do engate avariado?"
+    ],
+    "answer": "Suporte de apoio do engate trincado: sinalizar como MONITORADO. Suporte quebrado ou faltante: sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_espelho_engate",
+    "keywords": ["assentamento lateral", "rasgo viga", "espelho", "pancada superior"],
+    "questions": [
+      "Assentamento nas laterais do espelho?",
+      "Trinca no rasgo da viga?",
+      "Pancada na parte superior?"
+    ],
+    "answer": "Se apresentar assentamento nas laterais do espelho, trincas no rasgo da viga central, suporte do engate com mola quebrada ou desgaste excessivo, e/ou pancadas na parte superior do espelho, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_pino_mandibula_falta",
+    "keywords": ["pino mandíbula faltando", "pino quebrado", "contrapiná-lo"],
+    "questions": [
+      "Pino de mandíbula faltando?",
+      "Pino quebrado?",
+      "Como colocar pino?"
+    ],
+    "answer": "Se pino de mandíbula estiver faltando ou quebrado, aplicar ou substituir o pino e contrapiná-lo abrindo cada perna a 45°."
+  },
+  {
+    "id": "zto_bracadeira_trinca",
+    "keywords": ["braçadeira trincada", "incidência trinca braçadeira"],
+    "questions": [
+      "Braçadeira trincada?",
+      "Pontos de incidência na braçadeira?",
+      "Trinca na braçadeira pode rodar?"
+    ],
+    "answer": "Se braçadeira estiver trincada, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_bracadeira_quebrada",
+    "keywords": ["braçadeira quebrada"],
+    "questions": [
+      "Braçadeira quebrada?",
+      "Braçadeira partida?"
+    ],
+    "answer": "Se braçadeira estiver quebrada, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_chaveta_engate_e",
+    "keywords": ["chaveta desgaste", "meio polegada", "excesso desgaste chaveta"],
+    "questions": [
+      "Chaveta com excesso de desgaste?",
+      "Meia polegada de desgaste?",
+      "Trocar chaveta?"
+    ],
+    "answer": "Chaveta trincada ou visualmente com excesso de desgaste (acima ½\" de desgaste): trocar chaveta. Não sendo possível, RETER vagão para troca."
+  },
+  {
+    "id": "zto_pino_t",
+    "keywords": ["pino t", "travas", "chapa barra", "contrapino pino t"],
+    "questions": [
+      "Pino T sem contrapino?",
+      "Pino T quebrado?",
+      "Travas do pino T?"
+    ],
+    "answer": "Pino T sem contrapino ou contrapino quebrado: colocar/substituir e abrir pernas a 45°. Pino T quebrado ou sem travas: substituir, fechar travas (chapa ou barra) e contrapiná-lo."
+  },
+  {
+    "id": "zto_retentor_pino_f",
+    "keywords": ["retentor", "engate f", "fixação errada"],
+    "questions": [
+      "Retentor do pino avariado?",
+      "Fixação errada do retentor?",
+      "Engate F sem retentor?"
+    ],
+    "answer": "Retentor do pino avariado, faltando, com fixação errada ou faltando: corrigir ou RETER o vagão para tratamento."
+  },
+  {
+    "id": "zto_varao_aluidor",
+    "keywords": ["varão aluidor", "haste manobra", "torto", "emperrado"],
+    "questions": [
+      "Varão aluidor faltando?",
+      "Varão torto ou emperrado?",
+      "Haste de manobra avariada?"
+    ],
+    "answer": "Varão Aluidor (haste de manobra) faltando, torto ou emperrado: colocar/trocar e contrapiná-lo abrindo pernas a 45°. Caso não seja possível, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_varao_graneleiro_pct",
+    "keywords": ["graneleiro", "pct", "varão pct", "gabarito"],
+    "questions": [
+      "Varão de graneleiro em PCT?",
+      "Diferença entre varão graneleiro e PCT?",
+      "Pode misturar varão?"
+    ],
+    "answer": "ATENÇÃO: Nunca deve ser usado varão aluidor de vagão graneleiro em PCT. O posicionamento do suporte no PCT é paralelo à lateral e o engate tem deslocamento lateral maior, fazendo varão de graneleiro ficar fora de gabarito."
+  },
+  {
+    "id": "zto_rotor_conjunto",
+    "keywords": ["rotor", "conjunto rotor", "castanha engate", "rotor solto"],
+    "questions": [
+      "Rotor avariado?",
+      "Conjunto rotor solto?",
+      "Rotor caído?"
+    ],
+    "answer": "Rotor ou conjunto rotor avariado, solto (caído): avaliar desgaste do conjunto rotor e castanha do engate, e sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_act_folga",
+    "keywords": ["act", "folga cruzeta", "placa choque"],
+    "questions": [
+      "Folga entre cruzeta e ACT?",
+      "ACT com folga aparente?",
+      "Placa de choque solta?"
+    ],
+    "answer": "Se apresentar folga aparente entre cruzeta (placa de choque) e o ACT, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_act_componentes",
+    "keywords": ["act solto", "componentes soltos", "parafusos act"],
+    "questions": [
+      "ACT com componentes soltos?",
+      "Suporte do ACT frouxo?",
+      "Parafusos faltando no ACT?"
+    ],
+    "answer": "Se ACT possuir componentes soltos, sinalizar como CRÍTICO. Se suporte estiver frouxo ou faltando parafusos, colocar ou reapertar. Caso não seja possível e havendo 50% ou mais da fixação íntegra, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_cabeca_engate_batendo",
+    "keywords": ["cabeça engate", "batendo espelho", "longarina"],
+    "questions": [
+      "Cabeça do engate batendo?",
+      "Engate batendo no espelho?",
+      "Contato com longarina?"
+    ],
+    "answer": "Se cabeça do engate estiver batendo no espelho da longarina, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_altura_engate_diferenca",
+    "keywords": ["diferença altura engate", "76,2mm", "3 polegadas"],
+    "questions": [
+      "Diferença de altura entre engates?",
+      "76,2mm é o máximo?",
+      "3 polegadas de diferença?"
+    ],
+    "answer": "Diferença de altura entre engates maior que 76,2mm (3\"): solicitar reposicionamento do vagão na composição e sinalizar como MONITORADO. Se mandíbula for de 15\", considerar diferença pelo centro dos engates."
+  },
+  {
+    "id": "zto_telha_suporte",
+    "keywords": ["telha", "arreio", "suporte engate"],
+    "questions": [
+      "Telha faltando?",
+      "Arreio do suporte?",
+      "Suporte sem telha?"
+    ],
+    "answer": "Faltando telha ou arreio do suporte do engate, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_engate_caido",
+    "keywords": ["engate caído", "desalinhado vertical", "longarina central"],
+    "questions": [
+      "Engate caído?",
+      "Desalinhado na vertical?",
+      "Engate torto?"
+    ],
+    "answer": "Engate caído (desalinhado na vertical em relação à longarina central do vagão), sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_longarina_fraturada",
+    "keywords": ["longarina fraturada", "trinca aberta", "fratura longarina"],
+    "questions": [
+      "Longarina fraturada?",
+      "Trinca aberta na longarina?",
+      "Longarina partida?"
+    ],
+    "answer": "Se longarina central estiver fraturada (trinca aberta), RETER vagão."
+  },
+  {
+    "id": "zto_longarina_trinca_120mm",
+    "keywords": ["120mm", "trinca 120mm", "longarina central trinca"],
+    "questions": [
+      "Trinca de 120mm?",
+      "Maior ou igual a 120mm?",
+      "Trinca grande na longarina?"
+    ],
+    "answer": "Se longarina central apresentar trinca MAIOR ou IGUAL a 120mm, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_longarina_trinca_menor",
+    "keywords": ["menor 120mm", "transversal trinca", "qualquer tamanho"],
+    "questions": [
+      "Trinca menor que 120mm?",
+      "Transversal com trinca?",
+      "Trinca pequena na longarina?"
+    ],
+    "answer": "Se longarina central apresentar trinca MENOR que 120mm ou a transversal apresentar trinca de qualquer tamanho, sinalizar como MONITORADO."
+  },
+  {
+    "id": "zto_trinca_alma_viga",
+    "keywords": ["alma viga", "trinca crítica", "atingem alma"],
+    "questions": [
+      "Trinca na alma da viga?",
+      "Trincas críticas?",
+      "Alma da longarina trincada?"
+    ],
+    "answer": "As trincas com MAIOR criticidade são aquelas que atingem a ALMA da viga central. Devem ser acompanhadas e sinalizadas conforme evolução."
+  },
+  {
+    "id": "zto_trinca_aba",
+    "keywords": ["trinca aba", "chapa superior", "não crítica"],
+    "questions": [
+      "Trinca na aba?",
+      "Chapa superior trincada?",
+      "Trinca não crítica?"
+    ],
+    "answer": "As trincas de MENOR criticidade são localizadas na aba, ou na chapa superior ou inferior e NÃO atingem a alma da viga central."
+  },
+  {
+    "id": "zto_sinalizacao_trinca",
+    "keywords": ["sinalizar trinca", "marcar trinca", "evolução trinca"],
+    "questions": [
+      "Como sinalizar trinca?",
+      "Marcar evolução?",
+      "Acompanhar trinca?"
+    ],
+    "answer": "ATENÇÃO: Todas as trincas precisam ser sinalizadas e acompanhada a evolução, marcando com marcador industrial para verificar crescimento."
+  },
+  {
+    "id": "zto_finalizacao_revistamento",
+    "keywords": ["término", "finalizar", "encerrar revistamento", "retirar gabarito"],
+    "questions": [
+      "Como finalizar o revistamento?",
+      "Término do revistamento?",
+      "Encerrar revisão?"
+    ],
+    "answer": "Após término do revistamento e/ou conclusão dos reparos, Líder deve comunicar via rádio para encerrar, retirar-se do gabarito e posicionar-se ao lado de ZTO1 (lado barranco fora de gabarito)."
+  },
+  {
+    "id": "zto_app_marcacao",
+    "keywords": ["app", "marcar vagões", "whatsapp", "repassar informações"],
+    "questions": [
+      "Como marcar no APP?",
+      "Repassar informações?",
+      "Grupos de WhatsApp?"
+    ],
+    "answer": "Fazer marcação de vagões no APP do revistamento, e repassar todas informações de vagões isolados, planos especiais ou outra solicitação nos devidos grupos de WhatsApp."
+  },
+  {
+    "id": "zto_responsabilidade_lider",
+    "keywords": ["líder", "responsabilidade exclusiva", "backup", "programador"],
+    "questions": [
+      "Quem pode falar com programador?",
+      "Responsabilidade do líder?",
+      "Backup designado?"
+    ],
+    "answer": "ATENÇÃO: É de responsabilidade EXCLUSIVA do Líder de revistamento garantir cumprimento integral do processo. Somente ele, ou seu backup formalmente designado, está autorizado a manter contato com Programador da estação ou Maquinista."
+  },
+  {
+    "id": "zto_gabarito_restrito",
+    "keywords": ["gabarito restrito", "movimentação", "manobras", "abrigo"],
+    "questions": [
+      "O que é gabarito restrito?",
+      "Movimentação nas linhas?",
+      "Buscar abrigo onde?"
+    ],
+    "answer": "ATENÇÃO: Durante revistamento há movimentação de trens e manobras em ambos sentidos nas linhas adjacentes. Devido gabarito restrito (reduzido espaçamento), todos devem permanecer atentos ao tráfego, sinais sonoros e interromper atividades na aproximação de trens, buscando abrigo ENTRE os vagões do trem bloqueado."
+  }
+]
+

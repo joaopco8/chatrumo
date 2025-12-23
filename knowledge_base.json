@@ -1,0 +1,375 @@
+[
+    {
+      "id": "zto_objetivo_revistamento",
+      "keywords": ["revistamento", "zto", "pra que serve", "objetivo"],
+      "questions": [
+        "Pra que serve esse revistamento do ZTO?",
+        "Qual a ideia do revistamento padrão?",
+        "Por que a gente faz esse revistamento?"
+      ],
+      "answer": "O revistamento padrão do vagão ZTO serve para garantir que o vagão esteja seguro para rodar, identificando falhas em rodas, freios, estrutura e itens de segurança antes da circulação."
+    },
+    {
+      "id": "zto_quem_pode_fazer",
+      "keywords": ["quem pode", "revistamento", "qualquer um", "autorizado"],
+      "questions": [
+        "Qualquer um pode fazer o revistamento?",
+        "Precisa ser alguém específico?",
+        "Quem tá liberado pra fazer isso?"
+      ],
+      "answer": "Não. O revistamento deve ser feito somente por profissional capacitado e autorizado, seguindo as normas e procedimentos internos."
+    },
+    {
+      "id": "zto_duvida_ok_nok",
+      "keywords": ["dúvida", "ok", "nok", "não sei", "incerteza"],
+      "questions": [
+        "E se eu ficar na dúvida?",
+        "Não sei se tá OK ou NOK, faço o quê?",
+        "Fiquei em dúvida nesse item"
+      ],
+      "answer": "Em caso de dúvida durante o revistamento, deve-se acionar o Líder para tomada de decisão, seguindo a cadeia de ajuda."
+    },
+    {
+      "id": "zto_bandagem_critica",
+      "keywords": ["bandagem", "bandagem crítica", "roda", "terceira vida"],
+      "questions": [
+        "Bandagem crítica é o quê?",
+        "Como identificar bandagem crítica?",
+        "Essa roda pode ser bandagem crítica?"
+      ],
+      "answer": "Bandagem crítica ocorre em rodas de terceira vida com excesso de quilometragem. No revistamento deve-se inspecionar visualmente o friso, a pista de rolagem e a bandagem externa."
+    },
+    {
+      "id": "zto_roda_trinca",
+      "keywords": ["trinca", "roda trincada", "rachadura"],
+      "questions": [
+        "Achei uma trinca na roda",
+        "Roda trincada pode rodar?",
+        "Vi uma rachadura na roda"
+      ],
+      "answer": "Roda com trinca não pode ser liberada. O vagão deve ser retido e o Líder acionado imediatamente para tomada de decisão."
+    },
+    {
+      "id": "zto_freio_importancia",
+      "keywords": ["freio", "sistema de freio", "importância"],
+      "questions": [
+        "Por que olhar o freio no revistamento?",
+        "Freio é item crítico?",
+        "O que acontece se o freio falhar?"
+      ],
+      "answer": "O sistema de freio é item crítico de segurança. Falhas podem causar acidentes graves, por isso deve ser inspecionado cuidadosamente no revistamento."
+    },
+    {
+      "id": "zto_cunha_rider_altura",
+      "keywords": ["cunha", "rider", "altura", "limite"],
+      "questions": [
+        "Qual o limite da cunha Rider?",
+        "Altura máxima da cunha Rider?",
+        "Quanto pode ter a cunha Rider?"
+      ],
+      "answer": "O limite de altura da cunha Rider control é de 45 mm."
+    },
+    {
+      "id": "zto_bracadeira_quebrada",
+      "keywords": ["braçadeira", "quebrada", "danificada"],
+      "questions": [
+        "Achei uma braçadeira quebrada",
+        "Braçadeira danificada pode liberar?",
+        "Se a braçadeira estiver ruim?"
+      ],
+      "answer": "Não deve ser liberado. O Líder deve ser informado imediatamente para tomada de decisão."
+    },
+    {
+      "id": "zto_item_solto",
+      "keywords": ["solto", "peça solta", "folga"],
+      "questions": [
+        "Tem peça solta, pode rodar?",
+        "Achei coisa solta no vagão",
+        "Isso aqui tá com folga"
+      ],
+      "answer": "Itens soltos representam risco. O vagão não deve ser liberado sem avaliação e decisão do Líder."
+    },
+    {
+      "id": "zto_estrutura_danificada",
+      "keywords": ["estrutura", "trinca", "amassado", "dano estrutural"],
+      "questions": [
+        "Estrutura amassada pode rodar?",
+        "Achei dano na estrutura",
+        "Esse amassado é problema?"
+      ],
+      "answer": "Danos estruturais devem ser avaliados conforme o procedimento. Na dúvida, acionar o Líder para decisão."
+    },
+    {
+      "id": "zto_vazamento",
+      "keywords": ["vazamento", "ar", "freio"],
+      "questions": [
+        "Tem vazamento de ar",
+        "Ouvi vazamento no freio",
+        "Freio vazando, e agora?"
+      ],
+      "answer": "Vazamentos no sistema de freio comprometem a segurança. O vagão não deve ser liberado sem correção."
+    },
+    {
+      "id": "zto_inspecao_visual",
+      "keywords": ["visual", "olhar", "inspeção visual"],
+      "questions": [
+        "O revistamento é só visual?",
+        "É só olhar mesmo?",
+        "Tem medição no revistamento?"
+      ],
+      "answer": "O revistamento padrão é predominantemente visual, seguindo os pontos definidos no procedimento."
+    },
+    {
+      "id": "zto_item_faltando",
+      "keywords": ["faltando", "ausente", "sem peça"],
+      "questions": [
+        "Tá faltando uma peça",
+        "Item ausente pode liberar?",
+        "Sem esse componente, roda?"
+      ],
+      "answer": "Item ausente é condição de não conformidade. O vagão não deve ser liberado sem avaliação técnica."
+    },
+    {
+      "id": "zto_limpeza",
+      "keywords": ["sujeira", "limpeza", "óleo"],
+      "questions": [
+        "Sujeira atrapalha o revistamento?",
+        "Óleo sujo interfere?",
+        "Tem que limpar antes?"
+      ],
+      "answer": "A sujeira pode dificultar a inspeção. Sempre que possível, deve-se garantir boa visibilidade dos componentes."
+    },
+    {
+      "id": "zto_seguranca_pessoal",
+      "keywords": ["epi", "segurança", "proteção"],
+      "questions": [
+        "Precisa usar EPI?",
+        "Tem risco nesse revistamento?",
+        "É perigoso fazer?"
+      ],
+      "answer": "Sim. O uso de EPIs e o cumprimento das normas de segurança pessoal são obrigatórios durante o revistamento."
+    },
+    {
+      "id": "zto_liberação_vagao",
+      "keywords": ["liberar", "liberação", "rodar"],
+      "questions": [
+        "Posso liberar o vagão?",
+        "Tá tudo certo, posso liberar?",
+        "Quando pode rodar?"
+      ],
+      "answer": "A liberação só deve ocorrer se todos os itens estiverem conformes. Em qualquer dúvida, acionar o Líder."
+    },
+    {
+      "id": "zto_fora_escopo",
+      "keywords": ["mais uma viagem", "achismo", "opinião"],
+      "questions": [
+        "Dá pra rodar só mais uma viagem?",
+        "Acho que aguenta, né?",
+        "Na sua opinião, pode rodar?"
+      ],
+      "answer": "Não posso avaliar situações fora dos procedimentos técnicos. Deve-se seguir rigorosamente o que está previsto nas normas internas."
+    }
+,
+    {
+      "id": "zto_friso_desgaste",
+      "keywords": ["friso", "desgaste", "roda", "perfil"],
+      "questions": [
+        "Esse friso tá muito gasto?",
+        "Quando o friso vira problema?",
+        "Friso baixo pode rodar?"
+      ],
+      "answer": "Friso com desgaste excessivo compromete a segurança. Deve ser avaliado conforme o procedimento e, na dúvida, o Líder deve ser acionado."
+    },
+    {
+      "id": "zto_pista_rolagem",
+      "keywords": ["pista de rolagem", "marcada", "roda"],
+      "questions": [
+        "Pista de rolagem marcada é problema?",
+        "Essa marca na roda é normal?",
+        "Roda com pista riscada pode rodar?"
+      ],
+      "answer": "Marcas anormais na pista de rolagem devem ser avaliadas. Se houver dúvida quanto à segurança, o vagão não deve ser liberado."
+    },
+    {
+      "id": "zto_ruido_anormal",
+      "keywords": ["barulho", "ruído", "estranho"],
+      "questions": [
+        "Ouvi um barulho estranho nesse vagão",
+        "Ruído diferente é normal?",
+        "Esse estalo preocupa?"
+      ],
+      "answer": "Ruídos anormais podem indicar falha mecânica. O vagão deve ser avaliado antes de qualquer liberação."
+    },
+    {
+      "id": "zto_mangueira_freio",
+      "keywords": ["mangueira", "freio", "rachada"],
+      "questions": [
+        "Mangueira de freio rachada pode rodar?",
+        "Essa mangueira tá ressecada",
+        "Mangueira ruim é NOK?"
+      ],
+      "answer": "Mangueira de freio danificada compromete o sistema. O vagão não deve ser liberado."
+    },
+    {
+      "id": "zto_conexao_freio",
+      "keywords": ["conexão", "engate", "freio"],
+      "questions": [
+        "Conexão do freio mal encaixada pode rodar?",
+        "Engate do freio solto é problema?",
+        "Freio desconectado pode seguir?"
+      ],
+      "answer": "Conexões de freio devem estar corretamente acopladas. Qualquer falha impede a liberação."
+    },
+    {
+      "id": "zto_sapata_freio",
+      "keywords": ["sapata", "freio", "gasta"],
+      "questions": [
+        "Sapata de freio gasta pode rodar?",
+        "Quando a sapata vira problema?",
+        "Essa sapata tá no limite?"
+      ],
+      "answer": "Sapata de freio fora do padrão compromete a frenagem. Deve ser avaliada conforme o procedimento."
+    },
+    {
+      "id": "zto_folga_suspensao",
+      "keywords": ["suspensão", "folga", "jogo"],
+      "questions": [
+        "Essa folga na suspensão é normal?",
+        "Suspensão com jogo pode rodar?",
+        "Isso aqui tá sambando"
+      ],
+      "answer": "Folgas excessivas na suspensão indicam anormalidade. O vagão não deve ser liberado sem avaliação."
+    },
+    {
+      "id": "zto_trilho_contato",
+      "keywords": ["trilho", "contato", "interferência"],
+      "questions": [
+        "Esse vagão pode pegar no trilho?",
+        "Tá muito baixo, pode dar contato?",
+        "Tem risco de bater no trilho?"
+      ],
+      "answer": "Qualquer risco de contato com o trilho deve ser avaliado. Se houver dúvida, o vagão não deve ser liberado."
+    },
+    {
+      "id": "zto_eixo_desalinhado",
+      "keywords": ["eixo", "desalinhado", "torto"],
+      "questions": [
+        "Esse eixo parece torto",
+        "Eixo desalinhado pode rodar?",
+        "Isso aqui tá fora de linha"
+      ],
+      "answer": "Eixo desalinhado compromete a segurança. O vagão deve ser retido para avaliação."
+    },
+    {
+      "id": "zto_parafuso_faltando",
+      "keywords": ["parafuso", "faltando", "fixação"],
+      "questions": [
+        "Tá faltando um parafuso",
+        "Parafuso ausente pode rodar?",
+        "Essa fixação sem parafuso dá problema?"
+      ],
+      "answer": "Fixações incompletas são condição de não conformidade. O vagão não deve ser liberado."
+    },
+    {
+      "id": "zto_parafuso_frouxo",
+      "keywords": ["parafuso frouxo", "aperto", "solto"],
+      "questions": [
+        "Parafuso frouxo pode rodar?",
+        "Esse parafuso tá solto",
+        "Dá pra apertar e liberar?"
+      ],
+      "answer": "Parafusos frouxos comprometem a segurança. A condição deve ser corrigida antes da liberação."
+    },
+    {
+      "id": "zto_componentes_quentes",
+      "keywords": ["quente", "aquecido", "temperatura"],
+      "questions": [
+        "Essa peça tá muito quente",
+        "Aquecimento anormal é problema?",
+        "Tá esquentando demais"
+      ],
+      "answer": "Aquecimento anormal indica possível falha. O vagão deve ser avaliado antes de liberar."
+    },
+    {
+      "id": "zto_tampa_solta",
+      "keywords": ["tampa", "aberta", "solta"],
+      "questions": [
+        "Tampa aberta pode rodar?",
+        "Essa tampa tá solta",
+        "Pode liberar com tampa assim?"
+      ],
+      "answer": "Tampas soltas ou abertas representam risco. O vagão não deve ser liberado."
+    },
+    {
+      "id": "zto_identificacao",
+      "keywords": ["identificação", "placa", "numeração"],
+      "questions": [
+        "Sem identificação pode rodar?",
+        "Placa ilegível dá problema?",
+        "Numeração apagada interfere?"
+      ],
+      "answer": "Problemas de identificação devem ser tratados conforme o procedimento interno antes da liberação."
+    },
+    {
+      "id": "zto_condicao_geral",
+      "keywords": ["condição geral", "estado", "aparência"],
+      "questions": [
+        "No geral ele tá bom?",
+        "Visualmente tá ok?",
+        "Aparentemente pode rodar?"
+      ],
+      "answer": "A condição geral deve atender a todos os critérios do revistamento. Aparência não substitui inspeção técnica."
+    },
+    {
+      "id": "zto_pressa_operacional",
+      "keywords": ["pressa", "correria", "atraso"],
+      "questions": [
+        "Tá na correria, posso agilizar?",
+        "Por causa do atraso dá pra liberar?",
+        "Tem como passar mais rápido?"
+      ],
+      "answer": "A pressa operacional não justifica descumprimento de procedimentos de segurança."
+    },
+    {
+      "id": "zto_turno_noturno",
+      "keywords": ["noite", "escuro", "iluminação"],
+      "questions": [
+        "À noite muda alguma coisa?",
+        "No escuro posso fazer igual?",
+        "Falta de luz interfere?"
+      ],
+      "answer": "A iluminação adequada é essencial para o revistamento. Sem visibilidade, a inspeção fica comprometida."
+    },
+    {
+      "id": "zto_clima",
+      "keywords": ["chuva", "clima", "tempo"],
+      "questions": [
+        "Com chuva pode revistar?",
+        "Tempo ruim atrapalha?",
+        "Molhado muda alguma coisa?"
+      ],
+      "answer": "Condições climáticas podem dificultar a inspeção. Deve-se garantir segurança e visibilidade adequadas."
+    },
+    {
+      "id": "zto_interferencia_externa",
+      "keywords": ["objeto", "interferência", "estranho"],
+      "questions": [
+        "Tem objeto estranho no vagão",
+        "Isso aqui não é do vagão",
+        "Algo preso onde não devia"
+      ],
+      "answer": "Objetos estranhos devem ser removidos e avaliados antes da liberação do vagão."
+    },
+    {
+      "id": "zto_decisao_final",
+      "keywords": ["decisão", "quem decide", "liberação final"],
+      "questions": [
+        "Quem bate o martelo no final?",
+        "Quem decide se libera?",
+        "A palavra final é de quem?"
+      ],
+      "answer": "A decisão final deve seguir a hierarquia operacional, com envolvimento do Líder conforme o procedimento."
+    }
+  ]
+  
+  

@@ -1,0 +1,72 @@
+'use client';
+
+import { useState, KeyboardEvent } from 'react';
+import { Send, Smile, Paperclip } from 'lucide-react';
+
+interface MessageInputProps {
+  onSendMessage: (text: string) => void;
+  disabled?: boolean;
+}
+
+export default function MessageInput({
+  onSendMessage,
+  disabled = false,
+}: MessageInputProps) {
+  const [message, setMessage] = useState('');
+
+  const handleSend = () => {
+    if (message.trim() && !disabled) {
+      onSendMessage(message.trim());
+      setMessage('');
+    }
+  };
+
+  const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSend();
+    }
+  };
+
+  return (
+    <div className="flex h-16 items-center gap-2 bg-[#202c33] px-4 border-t border-[#313d45]">
+      {/* Left Icons */}
+      <div className="flex items-center gap-1">
+        <button
+          className="p-2 text-[#8696a0] hover:text-white hover:bg-[#313d45] rounded-full transition-colors"
+          type="button"
+        >
+          <Smile className="h-5 w-5" />
+        </button>
+        <button
+          className="p-2 text-[#8696a0] hover:text-white hover:bg-[#313d45] rounded-full transition-colors"
+          type="button"
+        >
+          <Paperclip className="h-5 w-5" />
+        </button>
+      </div>
+
+      {/* Input Field */}
+      <input
+        type="text"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        onKeyPress={handleKeyPress}
+        placeholder="Type a message"
+        disabled={disabled}
+        className="flex-1 rounded-lg bg-[#2a3942] px-4 py-2.5 text-[#e9edef] text-sm placeholder:text-[#8696a0] focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
+      />
+
+      {/* Send Button */}
+      <button
+        onClick={handleSend}
+        disabled={!message.trim() || disabled}
+        className="p-2 text-[#8696a0] hover:text-white hover:bg-[#313d45] rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent"
+        type="button"
+      >
+        <Send className="h-5 w-5" />
+      </button>
+    </div>
+  );
+}
+

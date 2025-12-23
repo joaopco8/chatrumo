@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Waltinho Responde - Assistente Técnico Ferroviário
 
-## Getting Started
+Assistente técnico em engenharia ferroviária para suporte ao revistamento de vagões ZTO.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- **Next.js 16** (App Router)
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **Lucide React** (ícones)
+
+## 📋 Funcionalidades
+
+- Chat interface similar ao WhatsApp Web
+- Base de conhecimento técnica sobre revistamento ZTO
+- Sistema de matching inteligente para encontrar respostas
+- Autenticação por matrícula (CS)
+- Design responsivo (mobile e desktop)
+- 144+ itens na base de conhecimento
+
+## 🏗️ Estrutura do Projeto
+
+```
+my-app/
+├── data/                          # Bases de conhecimento
+│   ├── knowledge_base.json       # Base original (17 itens)
+│   ├── knowledge_base_zto_extended.json  # Base estendida (113 itens)
+│   └── knowledge_base_comprehensive.json # Respostas completas (14 itens)
+├── public/                        # Assets estáticos
+│   ├── chat-background.jpg       # Background da conversa
+│   ├── verification-badge.png    # Badge de verificação
+│   └── waltinho-profile.jpg      # Foto de perfil
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── chat/
+│   │   │       └── route.ts      # API endpoint /api/chat
+│   │   ├── globals.css           # Estilos globais
+│   │   ├── layout.tsx            # Layout raiz
+│   │   └── page.tsx              # Página principal
+│   ├── components/               # Componentes React
+│   │   ├── ChatLayout.tsx        # Layout principal do chat
+│   │   ├── ChatHeader.tsx        # Cabeçalho do chat
+│   │   ├── Sidebar.tsx           # Barra lateral (desktop)
+│   │   ├── MessageBubble.tsx     # Bolha de mensagem
+│   │   └── MessageInput.tsx      # Campo de input
+│   ├── lib/                      # Bibliotecas utilitárias
+│   │   ├── text-normalizer.ts    # Normalização de texto
+│   │   └── knowledge-matcher.ts   # Sistema de matching
+│   └── types/                    # Tipos TypeScript
+│       ├── api.ts                # Tipos da API
+│       └── message.ts            # Tipos de mensagem
+└── zto.md                        # Documento de referência ZTO
+```
+
+## 🚦 Como Executar
+
+### Instalação
+
+```bash
+npm install
+```
+
+### Desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build de Produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 🔐 Autenticação
 
-To learn more about Next.js, take a look at the following resources:
+O chat requer autenticação por matrícula (CS):
+- **Matrícula padrão:** `123456`
+- Informe a matrícula na primeira mensagem
+- Após autenticação, não é necessário informar novamente na sessão
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Base de Conhecimento
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O sistema possui **144 itens** de conhecimento técnico sobre:
+- Procedimentos de revistamento ZTO
+- Sistema de freio (mangueiras, sapatas, DDV, etc.)
+- Inspeção de rodas e eixos
+- Truques e componentes
+- Engates e ACTs
+- Longarinas e estrutura
+- Classificação de vagões (Isolado, Retido, Crítico, Monitorado)
+- Segurança e bloqueio
 
-## Deploy on Vercel
+## 🎨 Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Interface inspirada no WhatsApp Web
+- Cores: #0b141a (background), #111b21 (sidebar), #005c4b (mensagens usuário)
+- Responsivo: sidebar oculta no mobile
+- Background personalizado com overlay escuro
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Licença
+
+Este projeto é de uso interno.
+
+## 👤 Autor
+
+Desenvolvido para suporte técnico ferroviário - RUMO

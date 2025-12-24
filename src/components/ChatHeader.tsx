@@ -9,7 +9,7 @@ interface ChatHeaderProps {
 
 export default function ChatHeader({ onProfileClick }: ChatHeaderProps) {
   return (
-    <div className="flex h-16 items-center justify-between bg-[#202c33] px-3 sm:px-4 border-b border-[#313d45] fixed top-0 left-0 right-0 z-50">
+    <div className="flex h-16 items-center justify-between bg-[#202c33] px-3 sm:px-4 border-b border-[#313d45] fixed top-0 left-0 md:left-80 lg:left-96 right-0 z-50">
       {/* Left side - Contact Info */}
       <button
         onClick={onProfileClick}

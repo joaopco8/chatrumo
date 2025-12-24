@@ -100,15 +100,15 @@ export default function ChatLayout() {
   };
 
   return (
-    <div className="flex h-screen w-full bg-[#0b141a] max-w-full overflow-hidden">
+    <div className="flex h-screen w-full bg-[#0b141a] max-w-full overflow-hidden fixed inset-0">
       {/* Sidebar - Hidden on mobile, visible on desktop */}
       <div className="hidden md:block">
         <Sidebar />
       </div>
 
       {/* Chat Area */}
-      <div className="flex flex-1 flex-col w-full min-w-0">
-        {/* Chat Header */}
+      <div className="flex flex-1 flex-col w-full min-w-0 relative md:ml-0">
+        {/* Chat Header - Fixed at top */}
         <ChatHeader onProfileClick={() => setIsProfileOpen(true)} />
 
         {/* Contact Profile Modal */}
@@ -117,20 +117,27 @@ export default function ChatLayout() {
           onClose={() => setIsProfileOpen(false)} 
         />
 
-        {/* Messages Area */}
+        {/* Messages Area - Fixed position between header and input */}
         <div 
-          className="flex-1 overflow-y-auto relative pt-16 pb-16 bg-mobile-left md:bg-center"
+          className="overflow-y-auto relative bg-mobile-left md:bg-center"
           style={{
+            position: 'fixed',
+            top: '64px',
+            bottom: '64px',
+            left: 0,
+            right: 0,
+            width: '100%',
             backgroundImage: 'url(/chat-background.jpg)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}
+          id="messages-area"
         >
           {/* Dark overlay with 50% opacity for readability */}
           <div className="absolute inset-0 bg-[#0b141a] opacity-50"></div>
           
           {/* Messages container with relative positioning */}
-          <div className="relative flex flex-col py-4 px-2 sm:px-4">
+          <div className="relative flex flex-col py-4 px-2 sm:px-4 min-h-full">
             {messages.map((message) => (
               <MessageBubble key={message.id} message={message} />
             ))}
@@ -149,7 +156,7 @@ export default function ChatLayout() {
           </div>
         </div>
 
-        {/* Message Input */}
+        {/* Message Input - Fixed at bottom */}
         <MessageInput onSendMessage={handleSendMessage} disabled={isLoading} />
       </div>
     </div>

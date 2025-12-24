@@ -7,11 +7,13 @@ import Sidebar from './Sidebar';
 import ChatHeader from './ChatHeader';
 import MessageBubble from './MessageBubble';
 import MessageInput from './MessageInput';
+import ContactProfile from './ContactProfile';
 
 export default function ChatLayout() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   // Initial message from Waltinho
@@ -98,24 +100,29 @@ export default function ChatLayout() {
   };
 
   return (
-    <div className="flex h-screen w-full bg-[#0b141a]">
+    <div className="flex h-screen w-full bg-[#0b141a] max-w-full overflow-hidden">
       {/* Sidebar - Hidden on mobile, visible on desktop */}
       <div className="hidden md:block">
         <Sidebar />
       </div>
 
       {/* Chat Area */}
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col w-full min-w-0">
         {/* Chat Header */}
-        <ChatHeader />
+        <ChatHeader onProfileClick={() => setIsProfileOpen(true)} />
+
+        {/* Contact Profile Modal */}
+        <ContactProfile 
+          isOpen={isProfileOpen} 
+          onClose={() => setIsProfileOpen(false)} 
+        />
 
         {/* Messages Area */}
         <div 
-          className="flex-1 overflow-y-auto relative"
+          className="flex-1 overflow-y-auto relative pt-16 pb-16 bg-mobile-left md:bg-center"
           style={{
             backgroundImage: 'url(/chat-background.jpg)',
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}
         >
@@ -123,12 +130,12 @@ export default function ChatLayout() {
           <div className="absolute inset-0 bg-[#0b141a] opacity-50"></div>
           
           {/* Messages container with relative positioning */}
-          <div className="relative flex flex-col py-4">
+          <div className="relative flex flex-col py-4 px-2 sm:px-4">
             {messages.map((message) => (
               <MessageBubble key={message.id} message={message} />
             ))}
             {isLoading && (
-              <div className="flex justify-start px-4 mb-1">
+              <div className="flex justify-start px-2 sm:px-4 mb-1">
                 <div className="bg-[#202c33] rounded-lg rounded-tl-none px-3 py-2.5 shadow-sm">
                   <div className="flex gap-1 items-center">
                     <div className="h-2 w-2 rounded-full bg-[#8696a0] animate-bounce" style={{ animationDelay: '0ms', animationDuration: '1.4s' }}></div>

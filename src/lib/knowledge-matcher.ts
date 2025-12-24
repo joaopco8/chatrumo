@@ -157,3 +157,4 @@ export function findBestMatch(
 export const DEFAULT_RESPONSE = 
   'Esse assunto foge do escopo técnico ferroviário.';
 
+

@@ -16,17 +16,17 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
 
   return (
     <div
-      className={`flex w-full ${isUser ? 'justify-end' : 'justify-start'} mb-1 px-4`}
+      className={`flex w-full ${isUser ? 'justify-end' : 'justify-start'} mb-1 px-2 sm:px-4`}
     >
       <div
-        className={`group relative max-w-[65%] rounded-lg px-2 py-1.5 shadow-sm ${
+        className={`group relative max-w-[85%] sm:max-w-[65%] rounded-lg px-3 sm:px-2 py-1.5 sm:py-1.5 shadow-sm ${
           isUser
             ? 'bg-[#005c4b] text-white rounded-tr-none'
             : 'bg-[#202c33] text-[#e9edef] rounded-tl-none'
         }`}
       >
         {/* Message Text */}
-        <p className="text-sm leading-relaxed whitespace-pre-wrap break-words">
+        <p className="text-sm sm:text-sm leading-relaxed whitespace-pre-wrap break-words">
           {message.text}
         </p>
 

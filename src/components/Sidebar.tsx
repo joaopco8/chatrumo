@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Sidebar() {
   return (
-    <div className="flex h-screen w-80 lg:w-96 flex-col bg-[#111b21] border-r border-[#313d45] flex-shrink-0">
+    <div className="flex h-full w-80 lg:w-96 flex-col bg-[#111b21] border-r border-[#313d45] flex-shrink-0">
       {/* Header */}
       <div className="flex h-16 items-center gap-3 bg-[#202c33] px-4">
         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#25d366] text-white text-xl font-semibold">
@@ -22,7 +22,7 @@ export default function Sidebar() {
             <div className="relative flex-shrink-0">
               <div className="h-12 w-12 rounded-full overflow-hidden bg-[#111b21]">
                 <Image 
-                  src="/waltinho-profile.jpg" 
+                  src="/WhatsApp Image 2026-01-05 at 14.46.56.jpeg" 
                   alt="Waltinho Responde" 
                   width={48} 
                   height={48}

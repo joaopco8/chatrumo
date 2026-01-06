@@ -9,7 +9,7 @@ interface ChatHeaderProps {
 
 export default function ChatHeader({ onProfileClick }: ChatHeaderProps) {
   return (
-    <div className="flex h-16 items-center justify-between bg-[#202c33] px-3 sm:px-4 border-b border-[#313d45] fixed top-0 left-0 md:left-80 lg:left-96 right-0 z-50">
+    <div className="flex h-16 items-center justify-between bg-[#202c33] px-3 sm:px-4 border-b border-[#313d45] flex-shrink-0 z-50">
       {/* Left side - Contact Info */}
       <button
         onClick={onProfileClick}
@@ -18,7 +18,7 @@ export default function ChatHeader({ onProfileClick }: ChatHeaderProps) {
         {/* Avatar */}
         <div className="h-9 w-9 sm:h-10 sm:w-10 rounded-full overflow-hidden bg-[#111b21] flex-shrink-0">
           <Image 
-            src="/waltinho-profile.jpg" 
+            src="/WhatsApp Image 2026-01-05 at 14.46.56.jpeg" 
             alt="Waltinho Responde" 
             width={40} 
             height={40}

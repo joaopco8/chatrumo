@@ -80,17 +80,6 @@ body {
   .bg-center {
     background-position: center !important;
   }
-  
-  /* Adjust messages area for sidebar on desktop */
-  #messages-area {
-    left: 320px !important;
-  }
-}
-
-@media (min-width: 1024px) {
-  #messages-area {
-    left: 384px !important;
-  }
 }
 
 /* Animation for contact profile slide in */

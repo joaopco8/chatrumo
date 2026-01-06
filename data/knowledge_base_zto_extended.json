@@ -391,13 +391,17 @@
   },
   {
     "id": "zto_rolamento_cartucho",
-    "keywords": ["rolamento", "cartucho", "parafusos faltando", "tampa frouxa"],
+    "keywords": ["rolamento", "cartucho", "rolamento cartucho", "tipo cartucho", "parafusos faltando", "faltando parafusos", "tampa frouxa", "sem travas", "sem travas parafusos", "travas parafusos faltando", "anel encosto", "anel encosto solto", "retentor avariado", "retentor solto", "substituir rodeiro", "substituir rolamento", "reter vagão", "inspeção visual rolamento"],
     "questions": [
       "Rolamento tipo cartucho faltando parafuso?",
       "Tampa frouxa no rolamento?",
-      "Retentor avariado?"
+      "Retentor avariado?",
+      "Rolamento cartucho sem travas?",
+      "Anel de encosto solto?",
+      "Quando reter vagão para substituir rodeiro?",
+      "Inspeção visual de rolamento cartucho?"
     ],
-    "answer": "Para rolamentos tipo cartucho faltando parafusos, com tampa frouxa, sem travas nos parafusos, anel de encosto solto, retentor avariado ou solto, RETER vagão para substituir o rodeiro."
+    "answer": "Inspecionar visualmente rolamento: Para os rolamentos do tipo cartucho que estiverem faltando parafusos, com a tampa frouxa, sem travas nos parafusos, anel de encosto solto, retentor avariado ou solto, RETER vagão para substituir o rodeiro (rolamento)."
   },
   {
     "id": "zto_rolamento_inundacao",
@@ -1117,6 +1121,829 @@
       "Buscar abrigo onde?"
     ],
     "answer": "ATENÇÃO: Durante revistamento há movimentação de trens e manobras em ambos sentidos nas linhas adjacentes. Devido gabarito restrito (reduzido espaçamento), todos devem permanecer atentos ao tráfego, sinais sonoros e interromper atividades na aproximação de trens, buscando abrigo ENTRE os vagões do trem bloqueado."
+  },
+  {
+    "id": "zto_graxa_vazamento",
+    "keywords": ["graxa", "vazamento graxa", "retentor estourado", "vazando graxa", "rolamento vazando"],
+    "questions": [
+      "Vazamento de graxa no rolamento?",
+      "Retentor estourado vazando?",
+      "Graxa saindo do rolamento?",
+      "Como identificar vazamento de graxa?"
+    ],
+    "answer": "Verificar retentor estourado, amassado ou vazando graxa. Vazamento de graxa no rolamento indica problema no retentor ou na vedação. Se retentor estiver avariado ou solto, RETER vagão para substituir o rodeiro conforme procedimento."
+  },
+  {
+    "id": "zto_rolamento_capa_tampa",
+    "keywords": ["capa quebrada", "tampa quebrada", "tampa avariada", "capa rolamento", "tampa rolamento"],
+    "questions": [
+      "Capa do rolamento quebrada?",
+      "Tampa avariada no rolamento?",
+      "Capa quebrada pode rodar?",
+      "Tampa do rolamento quebrada?"
+    ],
+    "answer": "Verificar capa quebrada ou avariada no rolamento. Verificar tampa quebrada ou avariada. Se capa ou tampa estiverem quebradas/avariadas, RETER vagão para substituir o rodeiro (rolamento)."
+  },
+  {
+    "id": "zto_travas_parafusos_rolamento",
+    "keywords": ["travas parafusos", "travas abertas", "travas faltando", "travas avariadas", "parafusos sem travas"],
+    "questions": [
+      "Travas dos parafusos abertas?",
+      "Faltando travas nos parafusos?",
+      "Travas avariadas no rolamento?",
+      "Parafusos sem travas podem rodar?"
+    ],
+    "answer": "Verificar travas dos parafusos abertas, faltando ou avariadas. Para rolamentos tipo cartucho, se faltarem travas nos parafusos, RETER vagão para substituir o rodeiro. Travas são essenciais para manter parafusos fixos."
+  },
+  {
+    "id": "zto_anel_encosto",
+    "keywords": ["anel encosto", "anel encosto solto", "anel rolamento"],
+    "questions": [
+      "Anel de encosto solto?",
+      "Anel de encosto faltando?",
+      "O que é anel de encosto?"
+    ],
+    "answer": "Verificar anel de encosto solto no rolamento. Se anel de encosto estiver solto, RETER vagão para substituir o rodeiro (rolamento). O anel de encosto é componente importante para fixação adequada do rolamento."
+  },
+  {
+    "id": "zto_gdt_estribo_escada",
+    "keywords": ["estribo", "estribo torcido", "estribo quebrado", "escada quebrada", "escada trincada", "escada avariada", "gdt estribo", "gdt escada"],
+    "questions": [
+      "Estribo torcido no vagão GDT?",
+      "Estribo quebrado em contato com truque?",
+      "Escada quebrada no vagão?",
+      "Escada trincada pode rodar?",
+      "Estribo em contato com truque?"
+    ],
+    "answer": "Para vagões GDT, verificar estribos torcidos ou quebrados em contato com o truque. Verificar escadas quebradas, trincadas ou avariadas. Estribos em contato com truque ou escadas avariadas devem ser sinalizados e corrigidos conforme necessidade."
+  },
+  {
+    "id": "zto_gdt_amassamento_cba",
+    "keywords": ["amassamento cba", "cba alumínio", "virador", "amassamento virador", "gdt amassado"],
+    "questions": [
+      "Amassamento causado pelo virador?",
+      "Amassamento CBA-Alumínio?",
+      "Vagão GDT amassado?",
+      "Amassamento no virador?"
+    ],
+    "answer": "Para vagões GDT, verificar amassamentos causados pelo virador na CBA-Alumínio. Amassamentos significativos devem ser avaliados e sinalizados conforme procedimento. Verificar se amassamento compromete integridade estrutural."
+  },
+  {
+    "id": "zto_adaptador_estreito",
+    "keywords": ["adaptador estreito", "adaptador tipo", "tipos adaptador"],
+    "questions": [
+      "O que é adaptador estreito?",
+      "Diferença entre adaptador estreito e largo?",
+      "Tipos de adaptadores?"
+    ],
+    "answer": "Existem dois tipos principais de adaptadores: Adaptador Estreito e Adaptador Largo. Adaptador Largo: verificar desgaste na aba ≥3,2mm = MONITORADO. Adaptador Estreito: verificar assentamento adequado, sem folgas, sem quebras/trincas. Problemas = CRÍTICO."
+  },
+  {
+    "id": "zto_pad_chapas",
+    "keywords": ["chapa intermediária", "chapa superior", "chapa solta", "pad adapter plus", "desplacamento pad"],
+    "questions": [
+      "Chapa intermediária do PAD solta?",
+      "Chapa superior do PAD solta?",
+      "PAD Adapter Plus?",
+      "Desplacamento de material no PAD?",
+      "Chapa do PAD deslocada?"
+    ],
+    "answer": "Verificar se PADs estão íntegros: sem chapas soltas (intermediária ou superior), sem deformação, sem desplacamento, sem destacamento de material. PAD Adapter Plus com destacamento de material = RETER. Chapas soltas = RETER. Desplacamento = RETER."
+  },
+  {
+    "id": "zto_cordoes_solda",
+    "keywords": ["cordão solda", "cordões solda", "solda pedestal", "solda prato pião", "trinca solda"],
+    "questions": [
+      "Cordão de solda trincado?",
+      "Trinca no cordão de solda?",
+      "Solda próximo ao pedestal?",
+      "Cordões de solda no prato pião?"
+    ],
+    "answer": "Inspecionar travessas centrais e laterais do truque quanto aos cordões de solda próximo ao pedestal e prato do pião inferior. Se travessas estiverem trincadas (incluindo cordões de solda), RETER vagão para reparação."
+  },
+  {
+    "id": "zto_prato_piao_inferior_superior",
+    "keywords": ["prato pião inferior", "prato pião superior", "prato inferior", "prato superior", "diferença pratos"],
+    "questions": [
+      "Diferença entre prato inferior e superior?",
+      "Prato pião inferior vs superior?",
+      "Qual prato verificar?"
+    ],
+    "answer": "PRATO PIÃO INFERIOR: borda com desgaste excessivo ou quebrado = CRÍTICO. PRATO PIÃO SUPERIOR: folga D >35mm = CRÍTICO, folga A <1,6mm = CRÍTICO, 50% fixação faltando = CRÍTICO, trincado = CRÍTICO, bojo solto com clausura trincada = CRÍTICO."
+  },
+  {
+    "id": "zto_mola_cansada_solida",
+    "keywords": ["mola cansada", "marca sólida", "carga sólida", "mola sólida", "mola com marca"],
+    "questions": [
+      "Mola cansada?",
+      "Marca de carga sólida?",
+      "Como identificar mola sólida?",
+      "Mola com marca?"
+    ],
+    "answer": "Mola com marca de carga sólida (mola cansada) indica que mola perdeu capacidade de compressão. Caso haja DUAS ou MAIS molas de suspensão com marca de carga sólida, sinalizar como CRÍTICO. Mola sólida não deve ser confundida com mola quebrada."
+  },
+  {
+    "id": "zto_calibre_bigode",
+    "keywords": ["calibre bigode", "bigode", "medir cunha", "calibre cunha"],
+    "questions": [
+      "Como medir altura da cunha?",
+      "Calibre bigode?",
+      "Que calibre usar para cunha?",
+      "Medição da cunha Rider?"
+    ],
+    "answer": "Para medir altura da cunha, usar trena ou calibre bigode. O limite de altura da cunha Rider control é de 45mm. Acima dos limites estipulados, sinalizar como CRÍTICO. Calibre bigode é ferramenta específica para medição de altura de cunhas."
+  },
+  {
+    "id": "zto_calibre_laminas",
+    "keywords": ["calibre lâminas", "lâminas", "medir ampara balanço", "calibre ampara"],
+    "questions": [
+      "Como medir folga do ampara balanço?",
+      "Calibre de lâminas?",
+      "Usar lâminas para medir?",
+      "Medição com calibre lâminas?"
+    ],
+    "answer": "Com calibre de lâminas, executar medição passando calibre em TODA superfície da castanha do ampara balanço e acrescentar lâminas gradualmente até ficar justo. Calibre NÃO pode travar em nenhum ponto entre castanha e chapa superior. Se travar, retirar uma lâmina e repetir."
+  },
+  {
+    "id": "zto_compasso_ampara",
+    "keywords": ["compasso", "medir ampara contato constante", "altura livre", "compasso ampara"],
+    "questions": [
+      "Como medir ampara balanço contato constante?",
+      "Usar compasso?",
+      "Medição com compasso?",
+      "Altura livre do ampara?"
+    ],
+    "answer": "Para ampara balanço de contato constante, medir altura livre usando compasso. Se visivelmente as alturas livres dos ampara balanços estiverem desreguladas, RETER vagão. Observar se linha é nivelada - em linha desnivelada as folgas ficam desreguladas devido torção entre truques."
+  },
+  {
+    "id": "zto_tarja_vermelha_rgr",
+    "keywords": ["tarja vermelha", "rgr tarja", "roda grupo risco", "identificar rgr", "marcação vermelha"],
+    "questions": [
+      "Como identificar roda RGR?",
+      "Tarja vermelha na roda?",
+      "Roda com tarja vermelha?",
+      "O que significa tarja vermelha?"
+    ],
+    "answer": "Rodas do grupo de risco (RGR) são identificadas com tarja vermelha. Inspecionar visualmente rodas com tarja vermelha na região da marcação, na bandagem e no friso conforme MAN-VG-L-PRO-RD0001. Em caso de trinca, identificar a roda e RETER vagão para reparação."
+  },
+  {
+    "id": "zto_marcacao_quente_profunda",
+    "keywords": ["marcação quente", "marcação profunda", "baixo relevo", "marcação a quente", "rgr marcação"],
+    "questions": [
+      "Marcação a quente profunda?",
+      "Marcação em baixo relevo?",
+      "Como identificar marcação RGR?",
+      "Marcação quente na roda?"
+    ],
+    "answer": "Rodas RGR (Roda Grupo de Risco) possuem marcação a quente em baixo relevo no aro. Se espessura do aro for MENOR que 22mm (para RGR), sinalizar como CRÍTICO. Inspecionar região da marcação, bandagem e friso conforme procedimento MAN-VG-L-PRO-RD0001."
+  },
+  {
+    "id": "zto_friso_lascado",
+    "keywords": ["friso lascado", "friso lascando", "pedaços friso", "friso quebradiço", "lascas friso"],
+    "questions": [
+      "Friso lascado?",
+      "Friso lascando?",
+      "Pedaços do friso saindo?",
+      "Friso com lascas?"
+    ],
+    "answer": "Para rodas que não são do grupo de risco, inspecionar região do friso. Friso quebradiço ou lascado (com pedaços saindo) deve ser sinalizado como CRÍTICO. Friso lascado indica desgaste excessivo e risco de falha."
+  },
+  {
+    "id": "zto_sulco_pista",
+    "keywords": ["sulco pista", "sulco na pista", "pista sulcada", "roda sulcada"],
+    "questions": [
+      "Sulco na pista da roda?",
+      "Roda com sulco?",
+      "Pista sulcada pode rodar?",
+      "Sulco na pista de rolagem?"
+    ],
+    "answer": "Roda com sulco na pista ou cascalhada com profundidade MAIOR que 3,2mm, sinalizar como CRÍTICO. Sulco na pista indica desgaste excessivo e pode comprometer segurança operacional."
+  },
+  {
+    "id": "zto_superficie_espelhada",
+    "keywords": ["superfície espelhada", "espelhado", "marca contato", "contato eixo", "eixo espelhado"],
+    "questions": [
+      "Superfície espelhada no eixo?",
+      "Eixo com marca de contato?",
+      "Superfície espelhada por contato?",
+      "O que causa superfície espelhada?"
+    ],
+    "answer": "ATENÇÃO: Eixo deve estar LIVRE de qualquer contato com partes da estrutura ou componentes. Marcas de contato (sulcos, superfície espelhada por contato com tirante ou cabo do DDV) indicam problema crítico. Se eixo apresentar superfície espelhada por contato, sinalizar como CRÍTICO."
+  },
+  {
+    "id": "zto_castanha_ampara_balanco",
+    "keywords": ["castanha", "castanha ampara", "castanha trincada", "castanha quebrada", "componentes castanha"],
+    "questions": [
+      "O que é castanha do ampara balanço?",
+      "Castanha trincada?",
+      "Castanha quebrada?",
+      "Faltando componentes na castanha?"
+    ],
+    "answer": "Castanha é componente do ampara balanço. Castanhas trincadas, quebradas ou faltando componentes: RETER o vagão para reparação. Medição de folga deve ser feita em TODA superfície da castanha usando calibre de lâminas."
+  },
+  {
+    "id": "zto_capacete_ampara",
+    "keywords": ["capacete", "capacete ampara", "capacete quebrado", "capacete trincado", "componentes ampara"],
+    "questions": [
+      "Capacete do ampara quebrado?",
+      "Capacete trincado?",
+      "Componentes do ampara balanço?",
+      "Capacete faltando?"
+    ],
+    "answer": "Para ampara balanço de contato constante, verificar componentes: base, capacete, chapas de desgaste. Componentes (base, capacete, chapas) trincados, quebrados ou faltantes SEM deslocamento do conjunto: sinalizar como CRÍTICO. Base ou chapa sem fixação COM deslocamento: RETER."
+  },
+  {
+    "id": "zto_chapa_desgaste_ampara",
+    "keywords": ["chapa desgaste", "chapa desgaste superior", "chapa desgaste inferior", "chapa ampara"],
+    "questions": [
+      "Chapa de desgaste do ampara?",
+      "Chapa desgaste superior?",
+      "Chapa desgaste sem fixação?",
+      "Chapa deslocada?"
+    ],
+    "answer": "Base do ampara balanço ou chapa de desgaste superior sem fixação e com deslocamento: RETER vagão. Chapa de desgaste deve estar fixa e sem deslocamento. Medição de folga é feita entre castanha e chapa superior do ampara balanço."
+  },
+  {
+    "id": "zto_cruzeta_placa_choque",
+    "keywords": ["cruzeta", "placa choque", "cruzeta act", "placa choque act"],
+    "questions": [
+      "O que é cruzeta?",
+      "Placa de choque?",
+      "Folga entre cruzeta e ACT?",
+      "Cruzeta solta?"
+    ],
+    "answer": "Cruzeta (placa de choque) é componente do ACT. Se apresentar folga aparente entre cruzeta e ACT, sinalizar como CRÍTICO. ACT com componentes soltos também é CRÍTICO. Verificar fixação adequada da cruzeta no ACT."
+  },
+  {
+    "id": "zto_encanamento_secundario",
+    "keywords": ["encanamento secundário", "encanamento geral secundário", "vazamento encanamento"],
+    "questions": [
+      "O que é encanamento secundário?",
+      "Vazamento no encanamento secundário?",
+      "Diferença encanamento geral e secundário?"
+    ],
+    "answer": "Inspecionar encanamento geral e secundário. Se apresentar sintomas de vazamento de ar, corrigir vazamento. Observar união reta e conexões. Vazamentos no encanamento comprometem sistema de freio e devem ser corrigidos."
+  },
+  {
+    "id": "zto_grampo_fixacao_torneira",
+    "keywords": ["grampo fixação", "grampo torneira", "grampo solto", "grampo quebrado", "fixação torneira"],
+    "questions": [
+      "Grampo de fixação da torneira solto?",
+      "Grampo quebrado?",
+      "Falta grampo na torneira?",
+      "Como fixar torneira?"
+    ],
+    "answer": "Se apresentar grampo de fixação solto ou quebrado na torneira, substituir grampo de fixação ou refazer o reaperto. Não sendo possível, sinalizar o vagão como MONITORADO. Grampo é essencial para manter torneira fixa e evitar movimentação."
+  },
+  {
+    "id": "zto_suporte_torneira",
+    "keywords": ["suporte torneira", "suporte fora posição", "suporte trincado", "suporte quebrado"],
+    "questions": [
+      "Suporte da torneira fora de posição?",
+      "Suporte trincado?",
+      "Suporte quebrado?",
+      "Suporte avariado?"
+    ],
+    "answer": "Caso suporte da torneira esteja fora de posição, trincado ou quebrado, sinalizar o vagão como MONITORADO. Suporte avariado pode comprometer fixação da torneira e causar problemas no sistema de freio."
+  },
+  {
+    "id": "zto_chapa_travamento_pino",
+    "keywords": ["chapa travamento", "chapa pino", "chapa irregular", "chapa quebrada pino"],
+    "questions": [
+      "Chapa de travamento do pino irregular?",
+      "Chapa quebrada?",
+      "Chapa de travamento faltando?",
+      "Fixação do pino?"
+    ],
+    "answer": "Chapa de travamento do pino irregular ou quebrada: corrigir ou substituir. Chapa de travamento é essencial para manter pino de graduação fixo na barra de compressão. Se chapa estiver avariada, pode causar folga excessiva."
+  },
+  {
+    "id": "zto_biela_ajustador",
+    "keywords": ["biela ajustador", "biela batendo", "biela tremonha", "biela suportes"],
+    "questions": [
+      "Biela do ajustador batendo?",
+      "Biela apoiando na tremonha?",
+      "Biela em contato com suportes?",
+      "Ajustador com biela travada?"
+    ],
+    "answer": "Se biela do ajustador estiver apoiando na tremonha ou suportes, isolar o vagão e sinalizar como MONITORADO. Biela não deve ter contato com outros componentes. Ajustador emperrado também requer isolamento e sinalização como MONITORADO."
+  },
+  {
+    "id": "zto_varão_torcido_enroscado",
+    "keywords": ["varão torcido", "varão enroscado", "varão válvula", "ajustar varão"],
+    "questions": [
+      "Varão torcido causa vazamento?",
+      "Varão enroscado?",
+      "Como ajustar varão?",
+      "Varão da válvula de exaustão?"
+    ],
+    "answer": "Verificar se varão está torcido ou enroscado na válvula de exaustão do duplex. Realizar ajuste para sanar possível vazamento. Varão torcido/enroscado pode causar vazamento de ar no sistema de freio. Ajustar varão para posição correta."
+  },
+  {
+    "id": "zto_rodeiros_cascalhados",
+    "keywords": ["rodeiros cascalhados", "roda cascalhada", "cascalhamento", "rodeiro com calo"],
+    "questions": [
+      "Rodeiros cascalhados no vagão?",
+      "Como verificar cascalhamento?",
+      "Roda cascalhada pode rodar?",
+      "O que fazer com rodeiro cascalhado?"
+    ],
+    "answer": "Ao colocar retentora na posição EX (alívio direto), verificar se existem rodeiros cascalhados no vagão. Roda cascalhada com profundidade >3,2mm = CRÍTICO. Rodeiros cascalhados indicam desgaste excessivo e devem ser inspecionados cuidadosamente."
+  },
+  {
+    "id": "zto_mangueira_ddv_canto_vivo",
+    "keywords": ["canto vivo", "mangueira canto vivo", "contato canto vivo", "estrutura caixa"],
+    "questions": [
+      "Mangueira em contato com canto vivo?",
+      "Canto vivo da estrutura?",
+      "Mangueira DDV em contato?",
+      "Como evitar contato canto vivo?"
+    ],
+    "answer": "Se mangueiras DDV estiverem em contato com canto vivo da estrutura da caixa do vagão, torcida ou com desgaste, reposicionar as mangueiras deixando-as livres de contato. Contato com canto vivo pode causar desgaste e rompimento das mangueiras."
+  },
+  {
+    "id": "zto_fita_hellerman",
+    "keywords": ["fita hellerman", "braçadeira nylon", "travamento cabo", "fixar cabo aço"],
+    "questions": [
+      "O que é Fita Hellerman?",
+      "Braçadeira de nylon?",
+      "Como fixar cabo de aço?",
+      "Travamento do cabo DDV?"
+    ],
+    "answer": "Fita Hellerman (braçadeira de nylon) é usada para travamento do cabo de aço do DDV. Após reposicionar cabo respeitando parâmetros de folga e aplicar grampo elástico para travamento do pino, aplicar Fita Hellerman para travamento do cabo conforme MAN-VG-L-PRO-FR0008."
+  },
+  {
+    "id": "zto_peças_arrasto",
+    "keywords": ["peças arrasto", "peças de arrasto", "fixar peças", "timoneria desligada"],
+    "questions": [
+      "Peças de arrasto no vagão?",
+      "Como fixar peças?",
+      "Peças soltas de arrasto?",
+      "O que fazer com peças de arrasto?"
+    ],
+    "answer": "ATENÇÃO: Caso timoneria de um truque esteja desligada, obrigatoriamente a do outro truque também deve estar desligada e o vagão isolado. Fixar as peças que possam estar de arrasto. Peças de arrasto representam risco de segurança e devem ser fixadas adequadamente."
+  },
+  {
+    "id": "zto_posicao_top_mangueira",
+    "keywords": ["posição top", "mangueira top", "verificar posição", "acoplamento correto"],
+    "questions": [
+      "O que é posição TOP?",
+      "Mangueira na posição TOP?",
+      "Como verificar posição correta?",
+      "Acoplamento irregular?"
+    ],
+    "answer": "Se mangueira estiver frouxa ou fora de posição (torcidas, acoplamento irregular), apertar corretamente ou substituir a mangueira. Verificar a posição TOP (posição correta de acoplamento). Mangueiras fora de posição podem causar vazamentos e problemas no sistema de freio."
+  },
+  {
+    "id": "zto_mangueira_dual_contato",
+    "keywords": ["mangueira dual", "contato mangueiras", "mangueiras contato", "vagão dual"],
+    "questions": [
+      "Mangueiras de vagão dual em contato?",
+      "Contato entre mangueiras?",
+      "Marca de contato?",
+      "Mangueiras batendo?"
+    ],
+    "answer": "Mangueiras de vagão dual com contato entre si (marca de contato) devem ser corrigidas. Contato entre mangueiras pode causar desgaste e eventual rompimento. Reposicionar mangueiras para evitar contato."
+  },
+  {
+    "id": "zto_mangueira_dobrada",
+    "keywords": ["mangueira dobrada", "mangueira torcida", "posicionamento irregular", "mangueira fora posição"],
+    "questions": [
+      "Mangueira dobrada?",
+      "Mangueira torcida?",
+      "Posicionamento irregular?",
+      "Mangueira fora de posição?"
+    ],
+    "answer": "Mangueira dobrada ou com posicionamento irregular indica problema. Se mangueira estiver frouxa, fora de posição (torcidas, acoplamento irregular), apertar corretamente ou substituir a mangueira. Verificar posição TOP."
+  },
+  {
+    "id": "zto_mangueira_bolha",
+    "keywords": ["mangueira bolha", "bolha mangueira", "deformação mangueira", "mangote bolha"],
+    "questions": [
+      "Mangueira com bolha?",
+      "Bolha na mangueira?",
+      "Deformação tipo bolha?",
+      "Mangote com bolha pode rodar?"
+    ],
+    "answer": "Caso mangote apresente bolha ou deformação, substituir mangueira. Bolha na mangueira indica problema interno na estrutura da mangueira e pode causar rompimento. Mangueira com bolha não deve ser liberada."
+  },
+  {
+    "id": "zto_junta_knorr",
+    "keywords": ["junta knorr", "junta vedação", "sap 107096", "junta bocal knorr"],
+    "questions": [
+      "Que junta usar no bocal?",
+      "Junta KNORR?",
+      "SAP 107096?",
+      "Modelo de junta?"
+    ],
+    "answer": "Se apresentar vazamento de ar na junta do bocal, trocar junta de vedação do bocal utilizando o modelo KNORR (SAP 107096). Junta KNORR é o modelo correto para vedação adequada dos bocais das mangueiras."
+  },
+  {
+    "id": "zto_contrapino_pernas_45",
+    "keywords": ["abrir pernas", "45 graus", "contrapino pernas", "abertura contrapino"],
+    "questions": [
+      "Como abrir contrapino?",
+      "45 graus nas pernas?",
+      "Abrir pernas do contrapino?",
+      "Ângulo correto do contrapino?"
+    ],
+    "answer": "Contrapino deve ter as DUAS PERNAS abertas a 45°. Esta é a abertura correta do contrapino para garantir fixação adequada. Aplicar para: pino de graduação, pino mandíbula, pino T, varão aluidor, DAQ e outros componentes que requerem contrapino."
+  },
+  {
+    "id": "zto_sapata_inverter_cunha",
+    "keywords": ["inverter sapata", "sapata cunha", "desgaste cunha", "não inverter"],
+    "questions": [
+      "Pode inverter sapata com desgaste cunha?",
+      "Inverter sapata?",
+      "Sapata com desgaste em cunha?",
+      "Virar sapata do avesso?"
+    ],
+    "answer": "Para sapatas com desgaste em formato de cunha, considerar para troca a espessura da parte mais desgastada. NÃO é permitido inverter sapatas com desgaste em formato de cunha. Sapata com desgaste cunha deve ser substituída, não invertida."
+  },
+  {
+    "id": "zto_sapata_locomotiva",
+    "keywords": ["sapata locomotiva", "sapata loco", "não usar locomotiva", "sapata errada"],
+    "questions": [
+      "Pode usar sapata de locomotiva?",
+      "Sapata de loco em vagão?",
+      "Misturar sapatas?",
+      "Sapata errada?"
+    ],
+    "answer": "NÃO utilizar sapatas de locomotivas em vagões. Sapatas de locomotivas não são compatíveis com vagões e podem causar problemas no sistema de freio. Usar apenas sapatas específicas para vagões."
+  },
+  {
+    "id": "zto_esgotamento_ar_sapata",
+    "keywords": ["esgotar ar", "esgotamento ar", "drenar ar", "ar drenado"],
+    "questions": [
+      "Precisa esgotar ar para trocar sapata?",
+      "Como esgotar ar do vagão?",
+      "Drenar ar antes de trocar?",
+      "Esgotamento total do ar?"
+    ],
+    "answer": "ATENÇÃO: Com composição emergenciada, não é necessário realizar procedimento de isolamento dos vagões para trocar sapatas. Apenas realizar esgotamento total do ar de cada vagão que terá sapatas trocadas. Esgotar todo ar do reservatório antes de trocar sapatas."
+  },
+  {
+    "id": "zto_chicoteamento_mangueira",
+    "keywords": ["chicoteamento", "chicoteamento mangueira", "segurar bocal", "desacoplamento seguro"],
+    "questions": [
+      "O que é chicoteamento?",
+      "Como evitar chicoteamento?",
+      "Segurar bocal ao desacoplar?",
+      "Desacoplamento seguro?"
+    ],
+    "answer": "ATENÇÃO: Antes de desacoplar mangueira, fechar as DUAS torneiras. Segurar FIRMEMENTE os bocais durante desacoplamento prevendo possível chicoteamento das mangueiras. Chicoteamento pode causar acidentes e danos. Sempre segurar bocais firmemente."
+  },
+  {
+    "id": "zto_tremonha_cremalheira",
+    "keywords": ["cremalheira", "tremonha cremalheira", "risco queda", "tipo cremalheira"],
+    "questions": [
+      "O que é cremalheira?",
+      "Tremonha tipo cremalheira?",
+      "Risco de queda?",
+      "Cremalheira aberta?"
+    ],
+    "answer": "Se tremonhas estiverem abertas ou com risco de queda (tipo cremalheira), fechar. Caso não resolva ou não seja possível fechar, RETER o vagão para tratamento. Tremonhas tipo cremalheira abertas representam risco de segurança."
+  },
+  {
+    "id": "zto_baldeio_vazamento",
+    "keywords": ["baldeio", "transbordo", "vazamento não sanado", "reter baldeio"],
+    "questions": [
+      "O que é baldeio?",
+      "Quando fazer baldeio?",
+      "Vazamento não pode sanar?",
+      "Reter para baldeio?"
+    ],
+    "answer": "Não sendo possível sanar vazamento de carga pelas portas ou tremonhas, RETER o vagão para baldeio. Após baldeio, o mesmo deverá ser destinado para correção em posto de manutenção e sinalizar como CRÍTICO. Baldeio é transferência de carga para outro vagão."
+  },
+  {
+    "id": "zto_talha_tifor_macaco",
+    "keywords": ["talha", "tifor", "macaco", "excesso pressão", "vagão aberto talha"],
+    "questions": [
+      "Vagão com talha?",
+      "Tifor no vagão?",
+      "Macaco devido pressão?",
+      "Excesso de pressão?"
+    ],
+    "answer": "Vagões abertos com talha ou tifor, ou fechados com macaco devido excesso de pressão, devem ser sinalizados como CRÍTICOS. Talha/tifor/macaco indicam problema de pressão interna que pode causar acidentes. Não liberar sem correção."
+  },
+  {
+    "id": "zto_carga_desbalanceada",
+    "keywords": ["carga desbalanceada", "desbalanceada", "fora posição", "vagão inclinado"],
+    "questions": [
+      "Carga desbalanceada?",
+      "Vagão inclinado?",
+      "Carga fora de posição?",
+      "Desbalanceamento?"
+    ],
+    "answer": "Se carga estiver fora de posição (desbalanceada), RETER o vagão para posicionar a carga corretamente. Carga desbalanceada pode causar inclinação do vagão e problemas na circulação. Vagão inclinado lateralmente indica carga deslocada."
+  },
+  {
+    "id": "zto_anteparo_caido",
+    "keywords": ["anteparo caído", "anteparo", "plataforma anteparo", "reparar anteparo"],
+    "questions": [
+      "Anteparo caído?",
+      "Plataforma com anteparo caído?",
+      "Como reparar anteparo?",
+      "Anteparo pode rodar caído?"
+    ],
+    "answer": "Não é permitido trafegar vagão com anteparos caídos. Mecânicos devem reparar as peças caídas. Caso não seja possível fechar o vagão ou repará-lo no pátio, RETER para tratamento. Anteparo caído representa risco de segurança."
+  },
+  {
+    "id": "zto_container_porta_aberta",
+    "keywords": ["container porta", "porta container", "container aberto", "fechar container"],
+    "questions": [
+      "Container com porta aberta?",
+      "Porta de container aberta?",
+      "Como fechar container?",
+      "Container pode rodar aberto?"
+    ],
+    "answer": "Não é permitido trafegar com portas de containers abertas. Mecânicos devem fechar todos os containers. Caso não seja possível fechar, RETER para tratamento. Container com porta aberta representa risco de perda de carga."
+  },
+  {
+    "id": "zto_modulo_lona_aberto",
+    "keywords": ["módulo aberto", "lona aberta", "módulo caído", "lona caída"],
+    "questions": [
+      "Módulo aberto pode rodar?",
+      "Lona aberta?",
+      "Módulo caído?",
+      "Como fechar módulo?"
+    ],
+    "answer": "Não é permitido trafegar com módulos ou lonas abertos/caídos. Mecânicos devem fechar todos os vagões. Caso não seja possível fechar, RETER para tratamento. Módulos/lonas abertos representam risco de perda de carga e segurança."
+  },
+  {
+    "id": "zto_ftt_segundo_estagio",
+    "keywords": ["ftt segundo estágio", "2° estágio", "travas segundo estágio", "ftt travas fechadas"],
+    "questions": [
+      "FTT segundo estágio?",
+      "Travas no 2° estágio?",
+      "Como fechar FTT?",
+      "FTT travas corretas?"
+    ],
+    "answer": "ATENÇÃO: Vagões FTT devem estar com as travas dos módulos fechadas no 2° ESTÁGIO. Verificar se travas estão no segundo estágio antes de liberar vagão FTT. Travas no primeiro estágio não são suficientes."
+  },
+  {
+    "id": "zto_rolamento_parafusos_frouxos",
+    "keywords": ["parafusos frouxos", "parafusos rolamento", "parafusos faltantes", "parafusos soltos"],
+    "questions": [
+      "Parafusos frouxos no rolamento?",
+      "Parafusos faltando?",
+      "Parafusos soltos?",
+      "Parafusos do rolamento?"
+    ],
+    "answer": "Para rolamentos tipo cartucho: verificar parafusos frouxos, faltantes, sem travas. Se faltarem parafusos, tampa frouxa, sem travas nos parafusos, anel de encosto solto, retentor avariado ou solto, RETER vagão para substituir o rodeiro."
+  },
+  {
+    "id": "zto_rolamento_retentor_estourado",
+    "keywords": ["retentor estourado", "retentor amassado", "retentor solto", "retentor vazando"],
+    "questions": [
+      "Retentor estourado?",
+      "Retentor amassado?",
+      "Retentor solto?",
+      "Retentor vazando graxa?"
+    ],
+    "answer": "Verificar retentor estourado, amassado ou vazando graxa. Se retentor estiver avariado ou solto, RETER vagão para substituir o rodeiro (rolamento). Retentor é essencial para vedação do rolamento e evitar entrada de contaminantes."
+  },
+  {
+    "id": "zto_adaptador_chapa_desgaste",
+    "keywords": ["chapa desgaste pedestal", "folga coroas", "região alívio", "chapa desgaste adaptador"],
+    "questions": [
+      "Folga entre chapa desgaste e coroas?",
+      "Chapa de desgaste do pedestal?",
+      "Região de alívio?",
+      "Folga adaptador?"
+    ],
+    "answer": "Verificar se há folga entre a chapa de desgaste do teto do pedestal e região de alívio entre coroas do adaptador. Caso sim, sinalizar como CRÍTICO. Folga indica desgaste excessivo ou problema de assentamento do adaptador."
+  },
+  {
+    "id": "zto_pad_chapa_intermediaria_superior",
+    "keywords": ["chapa intermediária pad", "chapa superior pad", "chapa lateral pad", "chapa frontal pad"],
+    "questions": [
+      "Chapa intermediária do PAD solta?",
+      "Chapa superior do PAD?",
+      "Chapa lateral?",
+      "Chapa frontal do PAD?"
+    ],
+    "answer": "Verificar se PADs estão íntegros: sem chapas soltas (intermediária lateral, intermediária frontal, superior). Chapa intermediária solta (lateral ou frontal) = RETER. Chapa superior solta (desplacado) = RETER. PAD totalmente avariado = RETER."
+  },
+  {
+    "id": "zto_pad_adapter_plus",
+    "keywords": ["pad adapter plus", "adapter plus", "destacamento material", "pad plus"],
+    "questions": [
+      "O que é PAD Adapter Plus?",
+      "PAD Adapter Plus com destacamento?",
+      "Destacamento de material?",
+      "PAD Plus avariado?"
+    ],
+    "answer": "PAD Adapter Plus com destacamento de material deve ser RETER. PAD Adapter Plus é tipo específico de PAD. Verificar integridade: sem destacamento de material, sem chapas soltas, sem deformação. Qualquer problema = RETER ou sinalizar conforme gravidade."
+  },
+  {
+    "id": "zto_prato_piao_clausura",
+    "keywords": ["clausura", "clausura trincada", "clausura quebrada", "bojo clausura"],
+    "questions": [
+      "O que é clausura?",
+      "Clausura trincada?",
+      "Clausura quebrada?",
+      "Bojo com clausura?"
+    ],
+    "answer": "Se prato de pião superior for do tipo bojo solto, com clausura trincada ou quebrada, sinalizar como CRÍTICO. Clausura é componente do prato tipo bojo. Clausura trincada/quebrada compromete integridade do prato de pião."
+  },
+  {
+    "id": "zto_mola_encavalada",
+    "keywords": ["mola encavalada", "encavalada", "molas encavaladas", "mola travada"],
+    "questions": [
+      "O que é mola encavalada?",
+      "Mola encavalada pode rodar?",
+      "Como identificar mola encavalada?",
+      "Mola travada?"
+    ],
+    "answer": "Caso haja DUAS ou MAIS molas de suspensão encavaladas (travadas uma dentro da outra), sinalizar como CRÍTICO. Reter o vagão para substituição da mola. Mola encavalada perde capacidade de trabalho e pode causar problemas na suspensão."
+  },
+  {
+    "id": "zto_pacote_molas_gdt",
+    "keywords": ["pacote molas gdt", "configuração molas gdt", "quantidade molas gdt"],
+    "questions": [
+      "Pacote de molas GDT?",
+      "Configuração de molas GDT?",
+      "Quantidade de molas GDT?",
+      "Pacote molas vagão GDT?"
+    ],
+    "answer": "Para vagões GDT, inspecionar pacotes de molas conforme configuração. Verificar quantidades de molas conforme MAN-VG-L-PRO-TR0001. Se apresentar quantidades diferentes, sinalizar como CRÍTICO. NOTA: REALIZAR OBRIGATORIAMENTE INSPEÇÃO DE MOLAS APÓS DESCARGA DO VAGÃO NO VIRADOR."
+  },
+  {
+    "id": "zto_cunha_travada",
+    "keywords": ["cunha travada", "cunha solta", "cunha avariada", "cunha quebrada"],
+    "questions": [
+      "Cunha travada?",
+      "Cunha solta?",
+      "Cunha avariada?",
+      "Cunha quebrada é crítico?"
+    ],
+    "answer": "Cunha solta, travada, avariada ou quebrada: sinalizar como CRÍTICO. Cunha travada não funciona corretamente e pode causar problemas na suspensão. Cunha quebrada é condição crítica que requer atenção imediata."
+  },
+  {
+    "id": "zto_gabarito_passa_nao_passa",
+    "keywords": ["gabarito passa não passa", "gabarito n° 2", "calibre n° 02", "sap 47697"],
+    "questions": [
+      "Gabarito passa não passa?",
+      "Gabarito n° 2?",
+      "Calibre n° 02?",
+      "SAP 47697?"
+    ],
+    "answer": "Calibre passa não passa para friso, calibre n° 02 (SAP 47697). Usar para verificar: espessura do friso (friso fino quando tocar neste ponto) e friso vertical (quando tocar neste ponto específico). Ambos = CRÍTICO se detectados."
+  },
+  {
+    "id": "zto_calibre_finger",
+    "keywords": ["calibre finger", "finger", "medidor bandagem", "sap 47176"],
+    "questions": [
+      "Calibre finger?",
+      "SAP 47176?",
+      "Medidor de bandagem?",
+      "Calibre friso bandagem?"
+    ],
+    "answer": "Calibre finger medidor bandagem, friso e friso alto (SAP 47176). Usar para medir: espessura da bandagem, altura do friso, espessura do friso. É ferramenta essencial do kit da dupla de revisão."
+  },
+  {
+    "id": "zto_calibre_concavidade_aar",
+    "keywords": ["calibre aar", "concavidade aar", "medidor concavidade", "sap55718", "hollow aar"],
+    "questions": [
+      "Calibre AAR?",
+      "SAP55718?",
+      "Medidor de concavidade?",
+      "Como medir hollow?"
+    ],
+    "answer": "Calibre medidor de concavidade AAR (SAP55718). Usar para confirmar existência de hollow (concavidade) quando detectado visualmente. Limite de concavidade é 3mm. Sendo MAIOR que limite, sinalizar como CRÍTICO. Inspecionar todas pistas das rodas."
+  },
+  {
+    "id": "zto_trena_medicao",
+    "keywords": ["trena", "medir com trena", "diâmetro rodas", "medição trena"],
+    "questions": [
+      "Usar trena para medir?",
+      "Medir diâmetro das rodas?",
+      "Quando usar trena?",
+      "Medição com trena?"
+    ],
+    "answer": "Trena é ferramenta do kit da dupla. Usar para: medir altura da cunha (com calibre bigode), medir diâmetro das rodas quando calibre mostrar diferença de altura de bandagem. Se não houver diferença nos diâmetros, liberar o vagão."
+  },
+  {
+    "id": "zto_martelo_pena",
+    "keywords": ["martelo pena", "martelo 1kg", "martelo", "ferramenta martelo"],
+    "questions": [
+      "Martelo de pena?",
+      "Martelo 1Kg?",
+      "Para que serve martelo?",
+      "Martelo no kit?"
+    ],
+    "answer": "Martelo de pena de 1Kg faz parte do kit da dupla de revisão. Usado para ajustes e correções durante o revistamento. Ferramenta essencial para trabalhos de manutenção e inspeção."
+  },
+  {
+    "id": "zto_saca_pino",
+    "keywords": ["saca-pino", "sacar pino", "remover pino", "extrair pino"],
+    "questions": [
+      "O que é saca-pino?",
+      "Como usar saca-pino?",
+      "Remover pino?",
+      "Saca-pino no kit?"
+    ],
+    "answer": "Saca-pino é ferramenta do kit da dupla de revisão. Usado para remover pinos durante trabalhos de manutenção e substituição de componentes. Ferramenta essencial para trabalhos com pinos e contrapinos."
+  },
+  {
+    "id": "zto_abridor_contrapino",
+    "keywords": ["abridor contrapino", "abrir contrapino", "remover contrapino", "extrair contrapino"],
+    "questions": [
+      "Abridor de contra-pino?",
+      "Como abrir contrapino?",
+      "Remover contrapino?",
+      "Abridor no kit?"
+    ],
+    "answer": "Abridor de contra-pino é ferramenta do kit da dupla de revisão. Usado para remover contrapinos durante trabalhos de manutenção. Ferramenta essencial para trabalhos com contrapinos e pinos."
+  },
+  {
+    "id": "zto_marcador_industrial",
+    "keywords": ["marcador industrial", "marcar trinca", "sinalizar trinca", "marcar evolução"],
+    "questions": [
+      "Marcador industrial?",
+      "Para que serve marcador?",
+      "Marcar trincas?",
+      "Sinalizar com marcador?"
+    ],
+    "answer": "Marcador industrial faz parte do kit da dupla de revisão. Usado para sinalizar trincas e acompanhar evolução. TODAS as trincas precisam ser sinalizadas e acompanhada a evolução, marcando com marcador industrial para verificar crescimento."
+  },
+  {
+    "id": "zto_junta_bocal_mangueira",
+    "keywords": ["junta bocal", "junta mangueira", "sap 102729", "junta mangueira"],
+    "questions": [
+      "Junta do bocal?",
+      "SAP 102729?",
+      "Junta da mangueira?",
+      "Juntas no kit?"
+    ],
+    "answer": "Junta do bocal da mangueira (SAP 102729) faz parte do kit da dupla de revisão. Usada para vedação dos bocais das mangueiras. Se apresentar vazamento na junta, trocar por junta KNORR (SAP 107096)."
+  },
+  {
+    "id": "zto_radio_transmissor",
+    "keywords": ["rádio", "radio transmissor", "rádio comunicador", "certificado to"],
+    "questions": [
+      "Rádio transmissor?",
+      "Rádio certificado?",
+      "Rádio comunicador?",
+      "Rádio no kit?"
+    ],
+    "answer": "Rádio transmissor certificado pela TO (por revisor) faz parte do kit da dupla. Usado para comunicação durante revistamento. Líder usa rádio faixa 12 para contato com Programador e faixa RUMO MAN ÁREA 2 para comunicação com equipes. Equipes NÃO devem sair da faixa MAN ÁREA 2."
+  },
+  {
+    "id": "zto_alavanca_sapata",
+    "keywords": ["alavanca", "alavanca sapatas", "sap 109100", "sap122103", "trocar sapatas"],
+    "questions": [
+      "Alavanca para sapatas?",
+      "SAP 109100?",
+      "SAP122103?",
+      "Alavanca 90cm ou 1200mm?"
+    ],
+    "answer": "Alavanca para troca de sapatas, comprimento 90 cm (SAP 109100) e/ou 1.200mm (SAP122103) faz parte do kit da dupla de revisão. Usada para trocar sapatas de freio durante o revistamento. Ferramenta essencial para trabalhos com sapatas."
+  },
+  {
+    "id": "zto_chave_torneira",
+    "keywords": ["chave torneira", "sap 17126", "chave torneira", "abrir torneira"],
+    "questions": [
+      "Chave de torneira?",
+      "SAP 17126?",
+      "Como abrir torneira?",
+      "Chave no kit?"
+    ],
+    "answer": "Chave de torneira (SAP 17126) faz parte do kit da dupla de revisão. Usada para abrir e fechar torneiras do sistema de freio. Ferramenta essencial para trabalhos com torneiras e sistema de freio."
+  },
+  {
+    "id": "zto_chave_inglesa_grifo",
+    "keywords": ["chave inglesa", "chave grifo", "24 polegadas", "chave ajustável"],
+    "questions": [
+      "Chave inglesa 24\"?",
+      "Chave grifo?",
+      "Chave ajustável?",
+      "Chave no kit?"
+    ],
+    "answer": "Chave inglesa 24\" (ajustável) ou chave grifo 24\" faz parte do kit da dupla de revisão. Usada para apertos e ajustes durante o revistamento. Ferramenta essencial para trabalhos gerais de manutenção."
+  },
+  {
+    "id": "zto_lanterna",
+    "keywords": ["lanterna", "iluminação", "luz", "iluminar"],
+    "questions": [
+      "Lanterna no kit?",
+      "Para que serve lanterna?",
+      "Iluminação durante revistamento?",
+      "Usar lanterna?"
+    ],
+    "answer": "Lanterna faz parte do kit da dupla de revisão. Usada para iluminação durante inspeções, especialmente em áreas com pouca luz ou para verificar detalhes de componentes. Essencial para inspeção adequada."
+  },
+  {
+    "id": "zto_contrapinos_kit",
+    "keywords": ["contrapinos", "contrapino", "pinos", "fixação"],
+    "questions": [
+      "Contrapinos no kit?",
+      "Para que servem contrapinos?",
+      "Contrapinos de reposição?",
+      "Fixação com contrapino?"
+    ],
+    "answer": "Contrapinos fazem parte do kit da dupla de revisão. Usados para fixação de pinos em diversos componentes: pino de graduação, pino mandíbula, pino T, varão aluidor, DAQ. Contrapinos devem ter pernas abertas a 45° para fixação adequada."
   }
 ]
 

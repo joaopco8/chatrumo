@@ -29,7 +29,7 @@ export default function MessageInput({
   };
 
   return (
-    <div className="flex h-16 items-center gap-1 sm:gap-2 bg-[#202c33] px-2 sm:px-4 border-t border-[#313d45] fixed bottom-0 left-0 md:left-80 lg:left-96 right-0 z-50">
+    <div className="flex h-16 items-center gap-1 sm:gap-2 bg-[#202c33] px-2 sm:px-4 border-t border-[#313d45] flex-shrink-0 z-50">
       {/* Left Icons */}
       <div className="flex items-center gap-0.5 sm:gap-1 flex-shrink-0">
         <button

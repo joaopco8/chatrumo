@@ -100,14 +100,14 @@ export default function ChatLayout() {
   };
 
   return (
-    <div className="flex h-screen w-full bg-[#0b141a] max-w-full overflow-hidden fixed inset-0">
+    <div className="flex h-screen w-full bg-[#0b141a] overflow-hidden">
       {/* Sidebar - Hidden on mobile, visible on desktop */}
-      <div className="hidden md:block">
+      <div className="hidden md:block flex-shrink-0">
         <Sidebar />
       </div>
 
       {/* Chat Area */}
-      <div className="flex flex-1 flex-col w-full min-w-0 relative md:ml-0">
+      <div className="flex flex-1 flex-col min-w-0 relative">
         {/* Chat Header - Fixed at top */}
         <ChatHeader onProfileClick={() => setIsProfileOpen(true)} />
 
@@ -117,16 +117,10 @@ export default function ChatLayout() {
           onClose={() => setIsProfileOpen(false)} 
         />
 
-        {/* Messages Area - Fixed position between header and input */}
+        {/* Messages Area - Scrollable between header and input */}
         <div 
-          className="overflow-y-auto relative bg-mobile-left md:bg-center"
+          className="flex-1 overflow-y-auto relative bg-mobile-left md:bg-center"
           style={{
-            position: 'fixed',
-            top: '64px',
-            bottom: '64px',
-            left: 0,
-            right: 0,
-            width: '100%',
             backgroundImage: 'url(/chat-background.jpg)',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
@@ -137,7 +131,7 @@ export default function ChatLayout() {
           <div className="absolute inset-0 bg-[#0b141a] opacity-50"></div>
           
           {/* Messages container with relative positioning */}
-          <div className="relative flex flex-col py-4 px-2 sm:px-4 min-h-full">
+          <div className="relative flex flex-col py-4 px-2 sm:px-4 min-h-full z-10">
             {messages.map((message) => (
               <MessageBubble key={message.id} message={message} />
             ))}

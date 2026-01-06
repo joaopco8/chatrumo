@@ -31,7 +31,7 @@ export default function ContactProfile({ isOpen, onClose }: ContactProfileProps)
         <div className="flex flex-col items-center py-6 px-4 bg-[#111b21]">
           <div className="h-32 w-32 rounded-full overflow-hidden bg-[#111b21] mb-4 border-4 border-[#202c33]">
             <Image 
-              src="/waltinho-profile.jpg" 
+              src="/WhatsApp Image 2026-01-05 at 14.46.56.jpeg" 
               alt="Waltinho Responde" 
               width={128} 
               height={128}

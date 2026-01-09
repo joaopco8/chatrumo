@@ -9,7 +9,7 @@ interface ChatHeaderProps {
 
 export default function ChatHeader({ onProfileClick }: ChatHeaderProps) {
   return (
-    <div className="flex h-16 items-center justify-between bg-[#202c33] px-3 sm:px-4 border-b border-[#313d45] flex-shrink-0 z-50">
+    <div className="flex min-h-[64px] md:h-16 items-center justify-between bg-[#202c33] px-3 sm:px-4 border-b border-[#313d45] flex-shrink-0 z-50 py-1 md:py-0">
       {/* Left side - Contact Info */}
       <button
         onClick={onProfileClick}
@@ -27,7 +27,7 @@ export default function ChatHeader({ onProfileClick }: ChatHeaderProps) {
         </div>
         
         {/* Name and Status */}
-        <div className="flex flex-col min-w-0 flex-1">
+        <div className="flex flex-col min-w-0 flex-1 justify-center chat-header-text">
           <div className="flex items-center gap-1 sm:gap-1.5 min-w-0">
             <span className="text-white font-medium text-sm sm:text-base truncate whitespace-nowrap">
               Waltinho Responde
@@ -40,14 +40,14 @@ export default function ChatHeader({ onProfileClick }: ChatHeaderProps) {
               className="flex-shrink-0 object-contain sm:w-4 sm:h-4"
             />
           </div>
-          <span className="text-[#8696a0] text-[10px] sm:text-xs truncate whitespace-nowrap">
+          <span className="text-[#8696a0] text-[10px] sm:text-xs leading-tight line-clamp-2 md:truncate md:whitespace-nowrap">
             Assistente Técnico em Engenharia Ferroviária
           </span>
         </div>
       </button>
 
       {/* Right side - Actions */}
-      <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+      <div className="flex items-center gap-0.5 sm:gap-2 flex-shrink-0 ml-1">
         <button className="p-1.5 sm:p-2 text-[#8696a0] hover:text-white hover:bg-[#313d45] rounded-full transition-colors">
           <Video className="h-4 w-4 sm:h-5 sm:w-5" />
         </button>

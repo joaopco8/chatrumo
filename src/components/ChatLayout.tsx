@@ -100,7 +100,7 @@ export default function ChatLayout() {
   };
 
   return (
-    <div className="flex h-screen w-full bg-[#0b141a] overflow-hidden">
+    <div className="flex w-full bg-[#0b141a] overflow-hidden" style={{ height: '100dvh' }}>
       {/* Sidebar - Hidden on mobile, visible on desktop */}
       <div className="hidden md:block flex-shrink-0">
         <Sidebar />

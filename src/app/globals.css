@@ -99,13 +99,28 @@ body {
 /* Safe area support for mobile devices */
 @supports (padding: max(0px)) {
   .pb-safe {
-    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+    padding-bottom: max(2rem, env(safe-area-inset-bottom) + 1rem);
   }
 }
 
 @supports not (padding: max(0px)) {
   .pb-safe {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Mobile-specific fixes for ContactProfile */
+@media (max-width: 767px) {
+  /* Ensure full viewport height on mobile */
+  .contact-profile-container {
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+  }
+  
+  /* Better scrolling on mobile */
+  .contact-profile-scroll {
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
   }
 }
 

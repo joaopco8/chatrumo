@@ -96,6 +96,19 @@ body {
   animation: slide-in 0.3s ease-out;
 }
 
+/* Safe area support for mobile devices */
+@supports (padding: max(0px)) {
+  .pb-safe {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
+
+@supports not (padding: max(0px)) {
+  .pb-safe {
+    padding-bottom: 1rem;
+  }
+}
+
 /* Remove Next.js dev tools and default icons */
 #__next-build-watcher,
 #__next-prerender-indicator,

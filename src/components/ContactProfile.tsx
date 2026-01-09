@@ -12,9 +12,9 @@ export default function ContactProfile({ isOpen, onClose }: ContactProfileProps)
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] bg-[#0b141a] animate-slide-in">
+    <div className="fixed inset-0 z-[100] bg-[#0b141a] animate-slide-in flex flex-col">
       {/* Header */}
-      <div className="flex h-16 items-center justify-between bg-[#202c33] px-4 border-b border-[#313d45]">
+      <div className="flex h-16 items-center justify-between bg-[#202c33] px-4 border-b border-[#313d45] flex-shrink-0">
         <button
           onClick={onClose}
           className="p-2 text-[#8696a0] hover:text-white hover:bg-[#313d45] rounded-full transition-colors"
@@ -26,7 +26,7 @@ export default function ContactProfile({ isOpen, onClose }: ContactProfileProps)
       </div>
 
       {/* Scrollable Content */}
-      <div className="overflow-y-auto h-[calc(100vh-64px)]">
+      <div className="flex-1 overflow-y-auto min-h-0">
         {/* Profile Section */}
         <div className="flex flex-col items-center py-6 px-4 bg-[#111b21]">
           <div className="h-32 w-32 rounded-full overflow-hidden bg-[#111b21] mb-4 border-4 border-[#202c33]">
@@ -155,7 +155,7 @@ export default function ContactProfile({ isOpen, onClose }: ContactProfileProps)
         </div>
 
         {/* Rumo Branding */}
-        <div className="bg-[#111b21] border-t border-[#202c33] mt-2 mb-4">
+        <div className="bg-[#111b21] border-t border-[#202c33] mt-2 mb-4 pb-safe">
           <div className="px-4 py-4 text-center">
             <div className="inline-flex items-center gap-2 mb-2">
               <Train className="h-6 w-6 text-[#1ad07a]" />
